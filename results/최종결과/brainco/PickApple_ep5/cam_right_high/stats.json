@@ -1,0 +1,43 @@
+{
+ "prompt": "apple . plate . robot hand . robot arm . gripper . human hand .",
+ "n_frames": 220,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "apple": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 220,
+   "rejected": 0,
+   "coverage": 1.0,
+   "coasting_frames": 0,
+   "coverage_B": 1.0,
+   "occluded_frames": 203,
+   "n_history": 17,
+   "size_median": [
+    0.0694,
+    0.0636,
+    0.0179
+   ],
+   "coverage_det": 0.709,
+   "evidence_ratio": 0.709,
+   "reliability": "양호"
+  },
+  "plate": {
+   "is_target": false,
+   "confirmed": true,
+   "accepted": 220,
+   "rejected": 0,
+   "coverage": 1.0,
+   "coasting_frames": 0,
+   "coverage_B": 1.0,
+   "occluded_frames": 211,
+   "n_history": 9,
+   "size_median": [
+    0.1822,
+    0.1402,
+    0.0628
+   ]
+  }
+ }
+}

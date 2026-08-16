@@ -1,0 +1,43 @@
+{
+ "prompt": "rose . flower with stem . pink vase .",
+ "n_frames": 190,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "rose": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 186,
+   "rejected": 4,
+   "coverage": 0.979,
+   "coasting_frames": 4,
+   "coverage_B": 1.0,
+   "occluded_frames": 150,
+   "n_history": 30,
+   "size_median": [
+    0.3073,
+    0.0963,
+    0.0395
+   ],
+   "coverage_det": 0.884,
+   "evidence_ratio": 0.903,
+   "reliability": "양호"
+  },
+  "vase": {
+   "is_target": false,
+   "confirmed": true,
+   "accepted": 190,
+   "rejected": 0,
+   "coverage": 1.0,
+   "coasting_frames": 0,
+   "coverage_B": 1.0,
+   "occluded_frames": 30,
+   "n_history": 30,
+   "size_median": [
+    0.1536,
+    0.1322,
+    0.223
+   ]
+  }
+ }
+}

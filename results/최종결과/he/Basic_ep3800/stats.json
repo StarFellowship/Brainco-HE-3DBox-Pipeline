@@ -1,0 +1,43 @@
+{
+ "prompt": "pink round toy . orange plate . robot hand . robot arm . gripper . human hand .",
+ "n_frames": 132,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "pink toy": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 127,
+   "rejected": 5,
+   "coverage": 0.962,
+   "coasting_frames": 5,
+   "coverage_B": 1.0,
+   "occluded_frames": 117,
+   "n_history": 18,
+   "size_median": [
+    0.1036,
+    0.0943,
+    0.039
+   ],
+   "coverage_det": 0.803,
+   "evidence_ratio": 0.835,
+   "reliability": "양호"
+  },
+  "orange plate": {
+   "is_target": false,
+   "confirmed": true,
+   "accepted": 131,
+   "rejected": 1,
+   "coverage": 0.992,
+   "coasting_frames": 0,
+   "coverage_B": 0.992,
+   "occluded_frames": 123,
+   "n_history": 9,
+   "size_median": [
+    0.3265,
+    0.2165,
+    0.184
+   ]
+  }
+ }
+}

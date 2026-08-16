@@ -1,0 +1,35 @@
+{
+ "verdict": "채택 CONFIRM_N=8",
+ "table": [
+  {
+   "confirm_n": 1,
+   "perfect_loss": 0,
+   "other_removed": 0,
+   "safe": true
+  },
+  {
+   "confirm_n": 2,
+   "perfect_loss": 0,
+   "other_removed": 0,
+   "safe": true
+  },
+  {
+   "confirm_n": 3,
+   "perfect_loss": 0,
+   "other_removed": 19,
+   "safe": true
+  },
+  {
+   "confirm_n": 5,
+   "perfect_loss": 0,
+   "other_removed": 22,
+   "safe": true
+  },
+  {
+   "confirm_n": 8,
+   "perfect_loss": 0,
+   "other_removed": 157,
+   "safe": true
+  }
+ ]
+}

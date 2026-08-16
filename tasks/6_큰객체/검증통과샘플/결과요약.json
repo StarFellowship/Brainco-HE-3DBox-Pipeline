@@ -1,0 +1,233 @@
+{
+ "bc_oreo_head": {
+  "prompt": "white table . plate . chair . desk .",
+  "frame": 10,
+  "objects": [
+   {
+    "phrase": "plate",
+    "score": 0.715,
+    "mask_px": 35118,
+    "area_pct": 11.4,
+    "n_points": 31929,
+    "size_cm": [
+     27.2,
+     20.8,
+     17.8
+    ],
+    "absmax_cm": 27.2
+   },
+   {
+    "phrase": "white table",
+    "score": 0.673,
+    "mask_px": 130560,
+    "area_pct": 42.5,
+    "n_points": 119802,
+    "size_cm": [
+     129.8,
+     56.8,
+     55.6
+    ],
+    "absmax_cm": 129.8
+   },
+   {
+    "phrase": "chair",
+    "score": 0.642,
+    "mask_px": 5866,
+    "area_pct": 1.9,
+    "n_points": 4854,
+    "size_cm": [
+     54.0,
+     57.3,
+     41.0
+    ],
+    "absmax_cm": 57.3
+   },
+   {
+    "phrase": "chair",
+    "score": 0.44,
+    "mask_px": 2531,
+    "area_pct": 0.8,
+    "n_points": 2360,
+    "size_cm": [
+     43.2,
+     64.0,
+     52.6
+    ],
+    "absmax_cm": 64.0
+   }
+  ]
+ },
+ "bc_doll_head": {
+  "prompt": "white table . plate . chair .",
+  "frame": 10,
+  "objects": [
+   {
+    "phrase": "white table",
+    "score": 0.747,
+    "mask_px": 128292,
+    "area_pct": 41.8,
+    "n_points": 116892,
+    "size_cm": [
+     124.6,
+     63.4,
+     53.1
+    ],
+    "absmax_cm": 124.6
+   },
+   {
+    "phrase": "plate",
+    "score": 0.728,
+    "mask_px": 7940,
+    "area_pct": 2.6,
+    "n_points": 7147,
+    "size_cm": [
+     19.2,
+     15.4,
+     11.2
+    ],
+    "absmax_cm": 19.2
+   },
+   {
+    "phrase": "chair",
+    "score": 0.612,
+    "mask_px": 2692,
+    "area_pct": 0.9,
+    "n_points": 2345,
+    "size_cm": [
+     44.6,
+     28.4,
+     49.6
+    ],
+    "absmax_cm": 49.6
+   }
+  ]
+ },
+ "he_basic": {
+  "prompt": "table . basket . chair .",
+  "frame": 5,
+  "objects": [
+   {
+    "phrase": "basket",
+    "score": 0.704,
+    "mask_px": 23581,
+    "area_pct": 7.7,
+    "n_points": 16152,
+    "size_cm": [
+     33.7,
+     36.5,
+     41.8
+    ],
+    "absmax_cm": 41.8
+   },
+   {
+    "phrase": "chair",
+    "score": 0.399,
+    "mask_px": 9931,
+    "area_pct": 3.2,
+    "n_points": 3121,
+    "size_cm": [
+     13.1,
+     17.8,
+     14.4
+    ],
+    "absmax_cm": 17.8
+   },
+   {
+    "phrase": "table",
+    "score": 0.352,
+    "mask_px": 125348,
+    "area_pct": 40.8,
+    "n_points": 96959,
+    "size_cm": [
+     248.1,
+     111.6,
+     165.5
+    ],
+    "absmax_cm": 248.1
+   }
+  ]
+ },
+ "he_articulated": {
+  "prompt": "desk . laptop . chair . floor .",
+  "frame": 7,
+  "objects": [
+   {
+    "phrase": "desk",
+    "score": 0.579,
+    "mask_px": 96104,
+    "area_pct": 31.3,
+    "n_points": 73631,
+    "size_cm": [
+     206.8,
+     67.6,
+     140.0
+    ],
+    "absmax_cm": 206.8
+   },
+   {
+    "phrase": "laptop",
+    "score": 0.482,
+    "mask_px": 75446,
+    "area_pct": 24.6,
+    "n_points": 63338,
+    "size_cm": [
+     55.5,
+     27.8,
+     36.3
+    ],
+    "absmax_cm": 55.5
+   },
+   {
+    "phrase": "floor",
+    "score": 0.365,
+    "mask_px": 119178,
+    "area_pct": 38.8,
+    "n_points": 98574,
+    "size_cm": [
+     505.6,
+     247.2,
+     414.0
+    ],
+    "absmax_cm": 505.6
+   }
+  ]
+ },
+ "he_hri": {
+  "prompt": "table . vase . chair .",
+  "frame": 60,
+  "objects": [
+   {
+    "phrase": "table",
+    "score": 0.53,
+    "mask_px": 139436,
+    "area_pct": 45.4,
+    "n_points": 75791,
+    "size_cm": [
+     136.3,
+     48.4,
+     133.4
+    ],
+    "absmax_cm": 136.3
+   }
+  ]
+ },
+ "he_locomanip": {
+  "prompt": "table . shelf . cabinet . door .",
+  "frame": 40,
+  "objects": [
+   {
+    "phrase": "table",
+    "score": 0.536,
+    "mask_px": 182463,
+    "area_pct": 59.4,
+    "n_points": 112129,
+    "size_cm": [
+     78.5,
+     60.2,
+     42.9
+    ],
+    "absmax_cm": 78.5
+   }
+  ]
+ }
+}

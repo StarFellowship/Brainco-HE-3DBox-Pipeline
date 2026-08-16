@@ -1,0 +1,43 @@
+{
+ "prompt": "water bottle . plastic bottle . container box .",
+ "n_frames": 154,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "bottle": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 124,
+   "rejected": 30,
+   "coverage": 0.805,
+   "coasting_frames": 0,
+   "coverage_B": 0.805,
+   "occluded_frames": 122,
+   "n_history": 2,
+   "size_median": [
+    0.0895,
+    0.1948,
+    0.1131
+   ],
+   "coverage_det": 0.792,
+   "evidence_ratio": 0.984,
+   "reliability": "양호"
+  },
+  "container": {
+   "is_target": false,
+   "confirmed": true,
+   "accepted": 124,
+   "rejected": 30,
+   "coverage": 0.805,
+   "coasting_frames": 0,
+   "coverage_B": 0.805,
+   "occluded_frames": 3,
+   "n_history": 11,
+   "size_median": [
+    0.3489,
+    0.1698,
+    0.15
+   ]
+  }
+ }
+}

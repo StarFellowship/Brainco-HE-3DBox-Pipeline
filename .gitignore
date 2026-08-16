@@ -1,0 +1,9 @@
+# 실행 산출물 — 영상/프레임 기록은 저장소에 넣지 않는다.
+# 검증 영상은 구글 드라이브로 공유하고, 여기에는 요약 통계만 남긴다.
+results/**/*.mp4
+results/**/frames.json
+results/**/*.zip
+robust/
+__pycache__/
+*.pyc
+.DS_Store

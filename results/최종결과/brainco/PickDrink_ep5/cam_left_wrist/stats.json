@@ -1,0 +1,43 @@
+{
+ "prompt": "water bottle . clear plastic bottle . red cup . plate .",
+ "n_frames": 220,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "bottle": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 214,
+   "rejected": 6,
+   "coverage": 0.973,
+   "coasting_frames": 6,
+   "coverage_B": 1.0,
+   "occluded_frames": 186,
+   "n_history": 10,
+   "size_median": [
+    0.3117,
+    0.1471,
+    0.0898
+   ],
+   "coverage_det": 0.882,
+   "evidence_ratio": 0.907,
+   "reliability": "양호"
+  },
+  "plate": {
+   "is_target": false,
+   "confirmed": true,
+   "accepted": 21,
+   "rejected": 199,
+   "coverage": 0.095,
+   "coasting_frames": 21,
+   "coverage_B": 0.191,
+   "occluded_frames": 20,
+   "n_history": 1,
+   "size_median": [
+    0.1176,
+    0.1815,
+    0.1527
+   ]
+  }
+ }
+}

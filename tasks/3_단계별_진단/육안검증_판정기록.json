@@ -1,0 +1,1352 @@
+{
+ "_note": "2026-08 1회 실행 기록. file 값의 probe*/ 경로는 서버 임시 산출물이라 이 저장소에 없다. 채택된 결과물은 모듈별_개별사례/ 에 최종 파일명으로 들어 있다.",
+ "gd": [
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_best_cube_head_f198.png",
+   "verdict": "채택",
+   "what_visible": "쟁반 위 루빅스 큐브에 초록 박스(rubiks cube 0.61)가 정확히 밀착, 쟁반에는 파랑 plate 0.49 박스",
+   "reason": "대상 큐브에 박스가 타이트하게 정확히 붙어 있음. 큐브가 약간 모션블러지만 박스 정합은 한눈에 확인 가능",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_best_doll_head_f102.png",
+   "verdict": "채택",
+   "what_visible": "로봇 오른손이 잡은 보라색 토끼 인형에 초록 박스(doll 0.52), 접시에 파랑 plate 0.58 박스",
+   "reason": "인형 전체가 박스 안에 정확히 들어가고 여백도 적음. 그리퍼 파지 중에도 검출 성공한 대표 성공 사례",
+   "quality": 5
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_best_drink_head_f147.png",
+   "verdict": "채택",
+   "what_visible": "파란 뚜껑 소형 물병에 초록 박스(bottle 0.52)가 밀착, 접시에 파랑 plate 박스",
+   "reason": "작은 대상 물체에도 박스가 정확히 붙음. 성공 사례로 즉시 판독 가능",
+   "quality": 5
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_best_laptop_f7.png",
+   "verdict": "채택",
+   "what_visible": "테이블 위 반쯤 열린 검은 노트북 전체를 초록 박스(laptop 0.38)가 정확히 감쌈",
+   "reason": "점수는 0.38로 낮지만 박스 자체는 노트북에 타이트하게 정합. 저점수-정확검출 사례로도 유용",
+   "quality": 5
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_best_oreo_head_f6.png",
+   "verdict": "채택",
+   "what_visible": "오른쪽 로봇 손이 든 파란 오레오 봉지에 초록 박스(oreo 0.57), 쟁반에 파랑 plate 0.64 박스",
+   "reason": "파지 상태의 작은 패키지에 박스가 정확히 붙음. 성공 사례로 즉시 판독 가능",
+   "quality": 5
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_best_toy_f44.png",
+   "verdict": "채택",
+   "what_visible": "그리퍼가 누르고 있는 살구색 플러시 토이에 초록 박스(pink toy 0.69), 주황 바구니에 파랑 orange plate 0.56 박스",
+   "reason": "그리퍼 손가락이 겹친 상태에서도 토이에 박스가 정확히 밀착. 성공 사례로 명확",
+   "quality": 5
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_worst_charger_gap_f109.png",
+   "verdict": "채택",
+   "what_visible": "왼쪽 그리퍼 손가락에 흰색 충전기 어댑터가 들려 있으나 초록 박스 없음, 파란 접시에만 plate 0.61 박스",
+   "reason": "대상(charger)이 화면에 명확히 보이는데 검출 박스가 전혀 없음. 검출 실패 증거로 성립",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_worst_charger_gap2_f2.png",
+   "verdict": "채택",
+   "what_visible": "접시 왼쪽 테이블 위에 흰색 충전기(직육면체)가 세워져 있으나 박스 없음, 접시에만 plate 0.62 박스",
+   "reason": "대상이 가림 없이 테이블 위에 노출되어 있는데도 미검출. 검출 실패 증거로 성립",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_worst_tpaste_gap_f124.png",
+   "verdict": "탈락",
+   "what_visible": "오른쪽 그리퍼가 접시를 잡고 있고 파랑 plate 0.00 박스만 존재, 치약은 그리퍼에 거의 완전히 가려진 연두색 조각으로만 확인됨",
+   "reason": "6배 확대해야 그리퍼 틈의 연두색 치약 조각이 겨우 식별됨. 원본 해상도에서는 대상이 보인다고 말하기 어려워 '보이는데 놓쳤다' 증거로 부적합. 우하단 분홍 물체는 종이가방이지 치약 아님",
+   "quality": 2
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_worst_tissue_ghosthand_f116.png",
+   "verdict": "채택",
+   "what_visible": "손목캠 근접 화면의 좌하단 흰색 로봇 손목/암 부품 위에 초록 박스(tissue pack 0.00), 화면 어디에도 티슈 없음",
+   "reason": "물체가 전혀 없는 로봇 하드웨어 위에 tissue pack 라벨 박스가 그려진 유령 박스 사례. 기준에 정확히 부합",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_worst_apple_hand_f156.png",
+   "verdict": "탈락",
+   "what_visible": "화면 대부분을 채운 초점 나간 살색 블롭(사람 피부로 보임) 위에 화면 크기의 apple 0.00 박스, 상단에 로봇 팔 슬리브",
+   "reason": "박스가 그려진 대상이 로봇 손이 아니라 정체 불명의 블러 블롭(사람 팔/근접 물체). 확대해도 로봇 손이라 식별 불가하고, 사과 자체가 렌즈 앞에 있는 것인지도 구분 안 됨. '빈 로봇 손 위 박스' 증거로 부적합",
+   "quality": 1
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_worst_rose_vase_f156.png",
+   "verdict": "채택",
+   "what_visible": "분홍 장미 다발과 그 아래 분홍 화병 전체를 초록 rose 0.37 박스가 덮고, 그 안에 파랑 vase 0.79 박스가 중첩",
+   "reason": "rose 박스가 꽃뿐 아니라 화병 바닥까지 통째로 포함해 vase 박스를 완전히 감쌈. 과확장 실패가 한눈에 보이는 대표 사례",
+   "quality": 5
+  }
+ ],
+ "bp": [
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_best_apple_head_f26.png",
+   "verdict": "탈락",
+   "quality": 3,
+   "what_visible": "헤드캠. 접시 옆 사과에 납작한 2D 사각형 박스, 라벨 'apple 6x6x2cm'. 접시에도 'plate 17x13x6cm' 박스가 있는데 실제 접시 테두리가 박스 밖으로 사방으로 삐져나옴.",
+   "reason": "박스는 사과를 2D로는 감싸지만 3D 육면체가 아니라 납작한 직사각형이고, 두께 2cm는 사과(≈7cm)로 명백히 비현실적. 접시 박스도 실물보다 작아 best 전시용으로 부적합."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_best_bottle_he_f81.png",
+   "verdict": "채택",
+   "quality": 8,
+   "what_visible": "그리퍼가 잡은 흰 물병을 초록 3D 육면체가 꼭 맞게 감쌈, 라벨 'bottle 10x14x17cm'. 오른쪽 회색 트레이에도 'container 22x9x7cm' 박스가 대체로 맞게 그려짐.",
+   "reason": "병 전체가 육면체 안에 꼭 맞고 높이 17cm는 물병(≈20cm)으로 그럴듯. 처음 보는 사람도 '잘 감쌌다'를 즉시 알 수 있는 정상 케이스."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_best_cube_head_f198.png",
+   "verdict": "탈락",
+   "quality": 4,
+   "what_visible": "트레이 위 루빅스 큐브에 작은 2D 사각형 박스 'rubiks cube 7x6x3cm'. 같은 프레임의 'plate 28x12x11cm' 3D 박스가 둥근 트레이에서 왼쪽으로 치우쳐 트레이 오른쪽이 박스 밖으로 크게 삐져나옴.",
+   "reason": "큐브 박스 자체는 꼭 맞지만 깊이 3cm는 실물 5.7cm의 절반 수준이고, 함께 그려진 접시 박스가 눈에 띄게 이탈해 있어 한 장으로 '잘했네'라고 보이지 않음. 애매하므로 탈락."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_best_doll_head_f102.png",
+   "verdict": "채택",
+   "quality": 8,
+   "what_visible": "테이블에 누운 토끼 인형을 초록 3D 육면체가 몸통·머리·귀까지 거의 꼭 맞게 감쌈, 라벨 'doll 29x28x19cm'. 아래 접시에도 'plate 20x16x10cm' 박스.",
+   "reason": "29x28x19cm는 인형(≈30cm)으로 그럴듯하고, 제대로 된 3D 육면체가 인형을 스넉하게 감싸고 있어 초견에 성공 케이스로 읽힘. 오른쪽 그리퍼 쪽 봉제 일부만 살짝 밖."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_best_drink_head_f1.png",
+   "verdict": "탈락",
+   "quality": 4,
+   "what_visible": "그리퍼가 쥔 작은 음료병에 납작한 2D 사각형 'bottle 5x10x5cm'. 접시에는 'plate 16x14x?cm' 사각형이 접시 원보다 작게 안쪽에 그려져 접시 테두리가 사방으로 박스 밖.",
+   "reason": "병 박스는 3D 육면체가 아닌 납작 사각형이고 높이 10cm는 물병 기준(≈20cm)의 절반. 접시 박스도 실물보다 확연히 작음. best 전시용으로 애매해서 탈락."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_best_laptop_he_f7.png",
+   "verdict": "채택",
+   "quality": 8,
+   "what_visible": "테이블 위 펼쳐진 검은 노트북을 초록 3D 육면체가 화면 기울기까지 포함해 꼭 맞게 감쌈, 라벨 'laptop 47x23x24cm'. 밑판 끝만 살짝 박스 밖.",
+   "reason": "15장 중 3D 박스 기하가 가장 깔끔한 케이스 — 육면체가 노트북 형상에 밀착. 폭 47cm는 통상 노트북(30~36cm)보다 다소 크지만 2배 미만이고 화면에선 자연스러워 보임."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_best_oreo_head_f6.png",
+   "verdict": "채택",
+   "quality": 8,
+   "what_visible": "테이블 위 파란 오레오 스낵팩을 작은 박스가 꼭 맞게 감쌈, 라벨 'oreo 9x6x2cm'. 옆의 둥근 갈색 트레이도 'plate 28x14x12cm' 3D 박스 안에 거의 전부 들어감.",
+   "reason": "9x6x2cm는 오레오 소포장 실물 치수와 사실상 일치하고 박스가 팩에 밀착. 트레이 박스도 물체를 대체로 포함해 전체 인상이 성공 케이스로 읽힘."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_best_toy_he_f44.png",
+   "verdict": "탈락",
+   "quality": 2,
+   "what_visible": "흰/분홍 봉제 인형 옆에 'pink toy 12x5x4cm' 3D 박스가 그려져 있는데, 박스 절반 이상이 인형 왼쪽 빈 테이블 위이고 인형 몸통 대부분(얼굴 포함)은 박스 위쪽 밖에 있음.",
+   "reason": "박스가 물체를 감싸지 못하고 옆으로 빗나가 있음 — best 후보인데 실제로는 명백한 실패 프레임. 이걸 best로 내보내면 보고서 신뢰를 잃는 케이스라 즉시 탈락."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_worst_apple_wrist_f91.png",
+   "verdict": "채택",
+   "quality": 9,
+   "what_visible": "손목캠 초근접 — 사과 하나가 화면 전체를 가득 채우고, 그 위에 대형 3D 박스와 라벨 'apple 14x14x3cm'.",
+   "reason": "사과(≈7cm)를 14x14cm로 2배 과대 + 두께 3cm라는 비현실적 납작 치수. 근접 프레임에서 크기 추정이 무너지는 실패가 라벨만 봐도 즉시 드러남."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_worst_cube_wrist_f187.png",
+   "verdict": "채택",
+   "quality": 9,
+   "what_visible": "손목캠 초근접 — 흐릿한 루빅스 큐브가 프레임 대부분을 차지하고 큰 3D 박스에 라벨 'rubiks cube 13x16x5cm'.",
+   "reason": "실물 5.7cm 큐브를 13x16cm로 2배 이상 과대 추정. 누가 봐도 '큐브가 16cm?'라고 바로 걸리는 명백한 실패 샘플."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_worst_doll_wrist_f131.png",
+   "verdict": "채택",
+   "quality": 8,
+   "what_visible": "손목캠 초근접 — 인형 얼굴(눈·속눈썹)이 화면을 가득 채우는데, 박스는 얼굴 일부 영역만 덮고 라벨은 'doll 19x10x8cm'. 인형 털이 박스 밖 프레임 전체에 퍼져 있음.",
+   "reason": "물체가 프레임을 가득 채우는데 박스는 일부만 덮고, 30cm 인형을 19x10x8cm로 2~3배 과소 추정. 박스 이탈 + 크기 오류가 동시에 보이는 실패 케이스."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_worst_drink_wrist_f161.png",
+   "verdict": "채택",
+   "quality": 9,
+   "what_visible": "손목캠이 로봇 몸체/천장을 향한 프레임 — 병은 어디에도 안 보이는데 우하단 모서리에 찌그러진 초록 박스 조각과 라벨 'bottle 22x19x4...(45cm)'가 붙어 있음.",
+   "reason": "물체가 없는 화면 구석에 박스가 떠 있는 전형적 유령 박스 + 병 45cm급 과대 치수. 한눈에 '이건 완전히 틀렸다'가 보이는 최상급 worst 샘플."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_worst_rose_he_f156.png",
+   "verdict": "탈락",
+   "quality": 4,
+   "what_visible": "분홍 꽃병에 꽂힌 장미 다발. 'rose 17x22x32cm' 박스가 꽃 부분을, 'vase 15x12x21cm' 박스가 꽃병을 덮되 두 박스 모두 오른쪽 빈 공간으로 상당히 삐져나가 있음.",
+   "reason": "박스가 옆으로 늘어진 결함은 있지만 두 박스 모두 물체를 대체로 포함하고 치수도 화면상 그럴듯해, 처음 보는 사람이 '명백한 실패'로 못 읽음. worst는 그럴듯해 보이면 탈락 원칙 적용."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_worst_tissue_wrist_f33.png",
+   "verdict": "채택",
+   "quality": 9,
+   "what_visible": "손목캠 초근접 — 흰 티슈팩이 화면 전체를 채우는데 하단 파란 로고 부분에만 손톱만한 박스 'tissue pack 2x2x1cm', 그 옆에 'plate 1x0x1cm' 라벨까지 보임.",
+   "reason": "프레임을 가득 채운 티슈팩을 2x2x1cm로, 접시를 1x0x1cm로 추정 — 자릿수부터 틀린 붕괴 치수라 라벨만 봐도 즉시 실패로 읽힘."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_worst_towel_he_f83.png",
+   "verdict": "채택",
+   "quality": 8,
+   "what_visible": "그리퍼에 걸쳐진 체크무늬 수건. 'towel 59x55x47cm' 3D 박스가 수건 윗부분과 배경 허공(테이블 뒤 공간)에 걸쳐 떠 있고, 수건 대부분은 박스 아래 밖에 있음.",
+   "reason": "박스가 물체 대부분을 벗어나 허공에 떠 있고, 수건 치수 59x55x47cm는 명백한 2배 이상 과대. 박스 이탈과 크기 오류가 한 장에서 다 보이는 worst 샘플."
+  }
+ ],
+ "ghost3": [
+  {
+   "file": "brainco_PickTissues_ep5_cam_left_wrist_plate_f19",
+   "verdict": "탈락",
+   "reason": "before의 plate 박스가 빈 공간이 아니라 우하단 실물 분홍 물체(접시로 보임) 위에 걸쳐 있음. 확대 확인 결과 박스 내부에 분홍 곡면 실물 존재. 유령 사례로 단정 불가.",
+   "what_visible": "손목캠 하향 뷰. 좌하단 tissue pack 박스, 우하단 plate 10x7x21cm 박스가 분홍색 둥근 실물 위에 그려짐. after에서 plate 박스만 사라짐.",
+   "quality": 2
+  },
+  {
+   "file": "brainco_PickTissues_ep5_cam_left_wrist_plate_f26",
+   "verdict": "탈락",
+   "reason": "f19와 동일 상황. plate 박스 아래에 분홍색 실물(접시로 보임)이 확대에서 확인됨. 빈 곳의 유령 박스가 아님.",
+   "what_visible": "우하단 plate 9x6x18cm 박스가 분홍 실물 위에 걸침. after에서 박스 제거, 분홍 실물은 그대로 보임.",
+   "quality": 2
+  },
+  {
+   "file": "brainco_PickTissues_ep5_cam_left_wrist_plate_f29_B",
+   "verdict": "탈락",
+   "reason": "방식B 쌍이지만 f19/f26과 동일하게 plate 박스가 분홍 실물 위에 있음. after에서 사라지긴 하나 before가 유령으로 안 보임.",
+   "what_visible": "before: 우하단 plate 박스(파랑) + 좌하단 tissue pack 박스(주황, 가림보정). after: plate 박스 제거, 분홍 실물 노출.",
+   "quality": 2
+  },
+  {
+   "file": "brainco_PickTissues_ep5_cam_left_wrist_tissuepack_f115",
+   "verdict": "채택",
+   "reason": "before에서 tissue pack 박스가 좌하단 검은 로봇 팔/흰 로봇 부품 위에 그려져 있고 박스 안팎에 티슈팩이 전혀 없음(손가락도 빈 상태). after에서 박스 완전 제거. 한눈에 유령 제거로 읽힘.",
+   "what_visible": "빈 로봇 손가락 4개가 화면 중앙, 좌하단에 tissue pack 6x6x6cm 박스가 로봇 팔 위에 떠 있음. after는 박스·라벨 모두 없음.",
+   "quality": 5
+  },
+  {
+   "file": "brainco_PickTissues_ep5_cam_left_wrist_tissuepack_f122",
+   "verdict": "채택",
+   "reason": "f115와 동일 유형. tissue pack 박스가 티슈팩 없는 좌하단 로봇 팔/배경 위에 그려졌고 after에서 완전 제거됨.",
+   "what_visible": "before: 좌하단 tissue pack 6x5x6cm 박스, 내부는 검은 로봇 팔과 배경뿐. after: 박스 없음, 나머지 장면 동일.",
+   "quality": 5
+  },
+  {
+   "file": "brainco_PickTissues_ep5_cam_left_wrist_tissuepack_f125_B",
+   "verdict": "채택",
+   "reason": "방식B. 주황 tissue pack 박스(가림보정 표기)가 티슈팩 없는 좌하단 로봇 팔 위에 그려졌고 after에서 완전 제거. f115/f122와 같은 명확한 유령 제거.",
+   "what_visible": "before: 좌하단 주황 tissue pack 6x6x6cm(가림보정) 박스, 내부에 물체 없음. after: 박스 없음.",
+   "quality": 5
+  },
+  {
+   "file": "brainco_PickTissues_ep5_cam_right_wrist_tissuepack_f151",
+   "verdict": "탈락",
+   "reason": "박스가 빈 곳이 아니라 프레임 대부분을 채운 흰색 실물(카메라에 근접한 티슈/티슈팩으로 보임) 표면 위에 그려져 있음. 유령 여부를 이미지만으로 판정 불가.",
+   "what_visible": "흰 물체가 화면 하단 2/3을 채움. 그 위에 작은 tissue pack 6x3x1cm 박스. after는 박스만 사라짐.",
+   "quality": 1
+  },
+  {
+   "file": "brainco_PickTissues_ep5_cam_right_wrist_tissuepack_f158",
+   "verdict": "탈락",
+   "reason": "before에 박스가 보이지 않음. 픽셀 diff 결과 before/after 완전 동일(차이 픽셀 0개). 비교 쌍으로 성립하지 않음.",
+   "what_visible": "양쪽 모두 흰 물체와 로봇 손가락만 보이고 박스·라벨 전혀 없음.",
+   "quality": 1
+  },
+  {
+   "file": "brainco_PickTissues_ep5_cam_right_wrist_tissuepack_f161_B",
+   "verdict": "채택",
+   "reason": "before에서 tissue pack 박스(추정 표기)가 로봇 손가락 마디 위에 정확히 그려져 있고 박스 내부는 보라색 손가락뿐, 티슈팩 없음. after에서 해당 박스 제거. '빈 로봇 손 위 유령' 기준에 정확히 부합.",
+   "what_visible": "before: 상단 손가락 위 주황 tissue pack 5x3x1cm(추정) 소형 박스. after: 해당 박스 없음(좌상단에 다른 라벨 조각만 잘려 보임).",
+   "quality": 4
+  },
+  {
+   "file": "brainco_PickToothpaste_ep5_cam_right_wrist_plate_f149",
+   "verdict": "탈락",
+   "reason": "확대 확인 결과 plate 박스 아래에 실제 투명 유리 접시 테두리가 보임. 위치는 실물 위라 유령 아님(크기 46cm 과대는 별개 품질 문제).",
+   "what_visible": "before: 좌하단에 길쭉한 plate 46x12x21cm 박스, 내부에 유리 접시 곡선 테두리. after: plate 박스 제거, toothpaste 박스는 유지.",
+   "quality": 2
+  },
+  {
+   "file": "brainco_PickToothpaste_ep5_cam_right_wrist_plate_f156",
+   "verdict": "탈락",
+   "reason": "plate 박스가 좌하단 흰 테이블 가장자리의 무지(특징 없는 흰) 영역에 있음. 흰 접시가 있는지 없는지 이미지로 판별 불가 → 애매하므로 탈락.",
+   "what_visible": "before: 좌측 가장자리에 세로로 선 plate 8x14x9cm 박스, 내부는 평평한 흰 면과 희미한 사선뿐. after: 박스 제거.",
+   "quality": 1
+  },
+  {
+   "file": "brainco_PickToothpaste_ep5_cam_right_wrist_plate_f159_B",
+   "verdict": "탈락",
+   "reason": "방식B. f156과 같은 좌하단 흰 무지 영역 위 plate 박스. 접시 부재를 시각적으로 입증할 수 없어 애매 → 탈락.",
+   "what_visible": "before: 좌하단 plate 11x22x12cm 박스(흰 면 위) + 중앙 하단 주황 toothpaste 박스. after: plate 박스만 제거.",
+   "quality": 1
+  },
+  {
+   "file": "brainco_PickToothpaste_ep5_cam_right_wrist_toothpaste_f189",
+   "verdict": "탈락",
+   "reason": "toothpaste 박스가 빈 곳이 아니라 하단의 흰색 실물(하단 녹색 부분 포함, 치약 튜브로 보이는 근접 물체) 위에 그려져 있음. 유령으로 단정 불가.",
+   "what_visible": "before: 중앙 하단 toothpaste 12x14x7cm 박스, 내부에 흰 물체와 녹색 조각. after: 박스 제거, 같은 흰 물체가 그대로 보임.",
+   "quality": 2
+  },
+  {
+   "file": "brainco_PickToothpaste_ep5_cam_right_wrist_toothpaste_f196",
+   "verdict": "탈락",
+   "reason": "f189와 동일. 박스가 하단 흰 실물 위/주변에 걸쳐 있어 빈 공간의 유령이라고 볼 수 없음.",
+   "what_visible": "before: 중앙 하단 toothpaste 10x12x4cm 박스 + 좌측 plate 박스. after: 두 박스 모두 없고 흰 실물은 그대로.",
+   "quality": 2
+  },
+  {
+   "file": "brainco_PickToothpaste_ep5_cam_right_wrist_toothpaste_f199_B",
+   "verdict": "탈락",
+   "reason": "after에 toothpaste 박스가 그대로 남아 있음(가림보정→추정으로 표기만 바뀌고 거의 같은 위치에 존재). '유령 제거' 전후 쌍 기준 위반.",
+   "what_visible": "before: 중앙 하단 주황 toothpaste 15x8x5cm(가림보정) 박스. after: 같은 자리에 toothpaste 15x8x5cm(추정) 주황 박스 존재.",
+   "quality": 1
+  }
+ ],
+ "h1": [
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe2/h1_Articulated_ep120.png",
+   "verdict": "부분성공",
+   "reason": "mouse 9x8x6cm 박스가 마우스에 왼쪽으로 밀려 걸침: 박스 왼쪽 ~40%는 빈 테이블/케이블 위, 마우스 몸체 오른쪽 ~40%는 박스 밖. 좌(A)·우(B 가림보정) 완전히 동일한 위치라 보정 효과 없음. 높이 6cm는 일반 마우스(~4cm)보다 다소 큼. 확대해 보면 '마우스 100% 성공' 주장은 과장 — 절반만 걸친 오프셋 박스임."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe2/h1_Basic_ep1960.png",
+   "verdict": "성공",
+   "reason": "kettle 21x24x24cm 박스가 검은 전기주전자 몸체를 상하좌우 모두 타이트하게 감쌈. 바닥면이 주전자 받침과 일치하고 실물 크기도 타당. 박스 오른쪽의 검은 덩어리는 주전자가 아니라 로봇 팔·그리퍼. 처음 보는 사람도 즉시 '잘 잡았다'고 판단 가능한 유일한 H1 컷."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe2/h1_Basic_ep2680.png",
+   "verdict": "부분성공",
+   "reason": "container 45x43x39cm 박스가 회색 바구니 대부분을 덮지만 왼쪽·위로 밀림: 박스 왼쪽 면이 빈 테이블 위로 크게 돌출, 바구니 오른쪽 가장자리 일부는 박스 밖. 높이 39cm는 얕은 바구니(육안 ~20cm) 대비 약 2배 과대 — 박스 상단이 화면 밖까지 솟아 바구니 테두리보다 훨씬 높음."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe2/h1_Precision_ep7998.png",
+   "verdict": "실패",
+   "reason": "박스·라벨이 아예 렌더되지 않음(픽셀 검사로 녹색/주황 라인 픽셀 0개 확인). 납땜 장면에서 좌우 패널 모두 원본 프레임 그대로 — 검출 자체가 없음."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe2/h1_Tool_use_ep8398.png",
+   "verdict": "실패",
+   "reason": "박스·라벨 없음(라인 픽셀 0개 확인). 망치·회색 바구니 등 명확한 대상이 있는데도 좌우 패널 모두 미검출 원본 프레임."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe2/h1_deformable_ep4718.png",
+   "verdict": "실패",
+   "reason": "박스·라벨 없음(라인 픽셀 0개 확인). 테이블 위 검은 의류가 화면 대부분을 차지하는데도 좌우 패널 모두 미검출."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/g1/g1_Articulated_ep280_A_f110.png",
+   "verdict": "부분성공",
+   "reason": "laptop 47x19x22cm — footprint는 닫힌 Dell 노트북 윤곽과 잘 정렬되나, 두께 축이 치명적으로 틀림: 닫힌 노트북 실두께 ~2cm인데 19·22cm짜리 두꺼운 상자로 그려져 박스 아래 면이 빈 테이블을 크게 덮음. 노트북 앞쪽 모서리도 박스 하단선 밖으로 살짝 돌출. 세 축(47/19/22) 중 어느 것도 노트북 두께에 해당하지 않음."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/g1/g1_Basic_ep3800_A_f110.png",
+   "verdict": "부분성공",
+   "reason": "orange plate 32x17x13cm 박스는 봉제 그릇을 대체로 잘 감쌈(그릇 하단 일부만 박스 밖, 원형 그릇인데 17cm 깊이 축은 다소 좁음). pink toy 11x10x3cm 박스는 계란형 장난감의 오른쪽 ~20%가 박스 밖으로 나오고, 높이 3cm는 돔형 장난감(육안 ~7cm) 대비 절반 이하로 과소. 두 박스 중 하나만 준수."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/g1/g1_HRI_ep5598_A_f110.png",
+   "verdict": "실패",
+   "reason": "rose 5x5x1cm 박스가 분홍 장미 꽃송이가 아니라 그 왼쪽 검은 영역(로봇 머리/배경) 위에 놓임 — 꽃잎 가장자리만 박스 우상단에 살짝 걸침. 크기 5x5x1cm는 장미 다발(꽃송이만 ~8cm)에 물리적으로 무의미한 1cm 두께 평면. 위치·크기 모두 틀림."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/g1/g1_Locomanip_ep7120_A_f110.png",
+   "verdict": "부분성공",
+   "reason": "bottle 23x19x17cm 박스는 병 상반부만 포함하고 왼쪽으로 밀려 그리퍼 위까지 확장, 병 하반부는 박스 밖 — 19x17cm footprint는 병 직경 대비 과대. container 24x12x14cm 박스는 면적 대부분이 로봇 팔과 병 하단을 덮고 실제 흰 컨테이너는 우하단 구석에만 걸침. 두 박스가 서로 겹쳐 첫눈에 무엇을 잡은 건지 불명확."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/g1/g1_Precision_ep7918_A_f110.png",
+   "verdict": "부분성공",
+   "reason": "vase 13x10x14cm 박스가 분홍 꽃병의 하반부에만 걸치고 왼쪽으로 밀림 — 박스 왼쪽 절반은 빈 테이블, 꽃병 상반부(입구 포함)는 완전히 박스 밖, 높이 14cm도 실제(~20cm+) 대비 과소. rose 23x33x24cm 박스는 화면 상단 잘린 위치에 떠서 정체 불명의 작은 검은 물체와 일부만 겹치고, 장미에 23x33x24cm는 비현실적 크기."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/g1/g1_Tool_use_ep8198_A_f110.png",
+   "verdict": "부분성공",
+   "reason": "duster 23x12x29cm — 수평 위치는 먼지떨이 헤드와 일치하나 물체가 박스 최상단에만 걸치고 박스 아래 절반 이상이 빈 테이블. 눕혀진 먼지떨이 실제 두께 ~10cm 수준인데 높이 29cm로 ~3배 과대해 첫눈에 박스가 헛부피로 보임. 손잡이는 박스 밖 오른쪽으로 이어짐."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/g1/g1_deformable_ep4838_A_f110.png",
+   "verdict": "부분성공",
+   "reason": "towel 34x30x24cm — 34x30cm footprint는 접힌 체크 수건 윤곽과 대체로 정렬되고 2D 커버리지 양호(수건 앞쪽 하단 모서리 일부만 박스 밖). 다만 높이 24cm는 접힌 수건 실제 두께(~5cm) 대비 4~5배 과대여서 박스 상부가 빈 공간으로 크게 부풀어 있음. G1 중 가장 양호하지만 성공으로 채택하기엔 높이 축이 명백히 틀림."
+  }
+ ],
+ "ghost1": [
+  {
+   "file": "brainco_GraspOreo_ep5_cam_right_wrist_oreo_f190",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "before: 과노출된 백색 하단부에 plate+oreo 파란 박스 2개가 떠 있음. oreo 박스 내부는 균일한 흰색 공백으로 오레오 형체 전무. after: 박스 전부 소거, 장면 동일.",
+   "reason": "박스가 명백히 '아무것도 없는 백색 공백' 위에 있고 after에서 완전 소거됨. 단 프레임 전체가 심한 과노출·모션블러라 시연 임팩트는 중간 수준."
+  },
+  {
+   "file": "brainco_GraspOreo_ep5_cam_right_wrist_oreo_f197",
+   "verdict": "탈락",
+   "quality": 2,
+   "what_visible": "before: 우측에 plate 박스, 하단 중앙에 'oreo 7x4x1cm' 라벨 텍스트와 프레임 경계에 거의 전부 잘린 박스 실낱 조각만 보임. after: 모두 소거.",
+   "reason": "해당 라벨(oreo) 박스가 하단 프레임 밖으로 거의 전부 잘려 박스 자체를 인지할 수 없음. 사수가 before만 보고 '박스가 어디 잘못 그려졌는지' 판단 불가."
+  },
+  {
+   "file": "brainco_GraspOreo_ep5_cam_right_wrist_oreo_f200_B",
+   "verdict": "채택",
+   "quality": 6,
+   "what_visible": "before: 명백히 빈 흰 테이블 위에 주황 'oreo 11x7x11cm (추정)' 박스(하단 일부 잘림)와 파란 plate 박스가 그려짐. 테이블에는 아무 물체도 없음. after: 박스 전부 소거.",
+   "reason": "선명한 장면에서 빈 테이블 위 유령 박스가 after에서 사라짐. oreo 박스가 하단에 일부 잘렸으나 라벨과 윗면 윤곽이 뚜렷해 판독 가능."
+  },
+  {
+   "file": "brainco_GraspOreo_ep5_cam_right_wrist_plate_f191",
+   "verdict": "탈락",
+   "quality": 3,
+   "what_visible": "before: 과노출·블러 하단부에 plate 34x11x4cm 대형 박스. 확대 시 박스 내부 상단에 모션블러된 검은 블롭들(배경 잡동사니)이 걸쳐 있음. after: 박스 소거.",
+   "reason": "박스 내부에 블러된 검은 물체들이 겹쳐 있어 '물체가 없는 곳'인지 즉시 판별 불가. 흰 접시가 과노출에 묻혀 실제로 그 자리에 있을 가능성도 배제 못함. 애매하므로 탈락."
+  },
+  {
+   "file": "brainco_GraspOreo_ep5_cam_right_wrist_plate_f198",
+   "verdict": "채택",
+   "quality": 8,
+   "what_visible": "before: 초점 잡힌 매끈한 빈 흰 테이블 우측 영역에 plate 24x35x9cm 박스가 크게 그려짐. 접시류 물체 전무. after: 박스 완전 소거, 빈 테이블만 남음.",
+   "reason": "판독 가능한 선명한 빈 표면 위 대형 유령 박스 → after 완전 소거. 처음 보는 사람도 즉시 이해 가능한 명확한 개선 사례."
+  },
+  {
+   "file": "brainco_GraspOreo_ep5_cam_right_wrist_plate_f201_B",
+   "verdict": "채택",
+   "quality": 8,
+   "what_visible": "before: 빈 흰 테이블과 로봇 손가락에 걸쳐 plate 10x39x32cm 파란 대형 박스. 접시 없음. 하단에 소형 oreo(추정) 주황 박스도 빈 테이블 위. after: 전부 소거.",
+   "reason": "선명한 장면, 빈 테이블+로봇 손 위에 얹힌 대형 유령 박스가 after에서 깨끗이 사라짐. 즉시 판독 가능."
+  },
+  {
+   "file": "brainco_GraspRubiksCube_ep5_cam_right_wrist_rubikscube_f199",
+   "verdict": "채택",
+   "quality": 9,
+   "what_visible": "before: 빈 흰 테이블 위에 'rubiks cube 13x9x7cm' 와이어프레임 박스. 정작 색색의 실제 큐브로 보이는 물체는 좌하단 구석에 박스 밖에 따로 보임. after: 박스만 소거되고 구석 물체는 그대로.",
+   "reason": "빈 테이블 위 유령 박스 + 실물은 다른 위치라는 대비까지 한 프레임에 보이는 가장 명확한 사례. after에서 박스만 정확히 제거됨."
+  },
+  {
+   "file": "brainco_GraspRubiksCube_ep5_cam_right_wrist_rubikscube_f206",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "before: 좌하단 구석 흰 블러 영역 위에 소형 'rubiks cube 5x3x3cm' 박스가 온전히 그려짐. 색색 큐브의 흔적 전무. after: 박스 소거.",
+   "reason": "박스 내부에 큐브 특유의 색상이 전혀 없어 유령임이 판별되고 after에서 사라짐. 다만 박스가 작고 프레임 전체 블러가 심해 시연 임팩트는 낮음."
+  },
+  {
+   "file": "brainco_GraspRubiksCube_ep5_cam_right_wrist_rubikscube_f209_B",
+   "verdict": "채택",
+   "quality": 6,
+   "what_visible": "before: 비교적 선명한 장면의 좌하단 빈 흰 바닥/테이블 위에 소형 'rubiks cube 13x19x15cm' 박스. 큐브 없음. after: 박스 소거, 장면 동일.",
+   "reason": "빈 흰 표면 위 유령 박스가 after에서 제거됨. 장면이 선명해 판독은 쉬우나 박스가 구석에 작게 있어 임팩트는 중간."
+  },
+  {
+   "file": "brainco_PickApple_ep5_cam_left_wrist_apple_f169",
+   "verdict": "탈락",
+   "quality": 3,
+   "what_visible": "before: 천장을 바라보는 뷰 하단에 apple 18x4x6cm 대형 박스. 확대 시 박스 내부가 살구색 대형 근접 블러 블롭으로 가득 참(근접 아웃포커스된 사과 혹은 다른 물체로 보임). after: 박스 소거, 블롭은 그대로.",
+   "reason": "박스 아래에 물체일 가능성이 높은 대형 블롭이 존재해 '물체가 없는 곳'이라 단정 불가. 오히려 실물 위 박스를 지운 것일 수도 있는 애매 사례라 탈락."
+  },
+  {
+   "file": "brainco_PickApple_ep5_cam_left_wrist_apple_f176",
+   "verdict": "채택",
+   "quality": 6,
+   "what_visible": "before: 우하단 과노출 백색 공백 위에 apple 29x12x2cm + plate 18x9x2cm 파란 박스. 박스 내부는 균일 백색(좌측 가장자리에 로봇 부위 블러만 걸침). after: 박스 전부 소거.",
+   "reason": "사과처럼 색·형체 있는 물체가 전혀 없는 백색 공백 위 유령 박스가 after에서 완전히 사라짐. 로봇 부위 위 오검출 유형에도 부합."
+  },
+  {
+   "file": "brainco_PickApple_ep5_cam_left_wrist_apple_f179_B",
+   "verdict": "채택",
+   "quality": 7,
+   "what_visible": "before: 우하단 균일 백색 공백 위에 주황 'apple 26x25x8cm (가림보정)' 대형 박스와 plate 박스. 내부에 아무 물체 없음. after: 전부 소거.",
+   "reason": "크고 눈에 잘 띄는 주황 박스가 명백한 공백 위에 떠 있다가 after에서 깨끗이 제거됨. 즉시 판독 가능."
+  },
+  {
+   "file": "brainco_PickApple_ep5_cam_left_wrist_plate_f168",
+   "verdict": "탈락",
+   "quality": 2,
+   "what_visible": "before: 하단에 apple 박스(살구색 블롭 위), 우측 프레임 경계에 'plate 13x...' 라벨과 대부분 잘린 박스 모서리 일부만 보임. after: 모두 소거.",
+   "reason": "해당 라벨(plate) 박스가 우측 프레임 밖으로 대부분 잘려 극히 일부만 보임. 사수가 판단할 대상 자체가 화면에 없음."
+  },
+  {
+   "file": "brainco_PickApple_ep5_cam_left_wrist_plate_f175",
+   "verdict": "채택",
+   "quality": 6,
+   "what_visible": "before: 우하단 백색 공백 위에 plate 14x8x2cm 박스(내부 균일 백색, 완전 공백). 인접 apple 박스 좌측엔 검은 블러 물체가 있으나 plate 박스와는 분리됨. after: 박스 전부 소거.",
+   "reason": "plate 박스 내부가 완전한 공백이어서 유령임이 명확하고 after에서 제거됨. 라벨 텍스트가 박스 선과 겹쳐 약간 읽기 어려운 점만 감점."
+  },
+  {
+   "file": "brainco_PickApple_ep5_cam_left_wrist_plate_f178_B",
+   "verdict": "채택",
+   "quality": 7,
+   "what_visible": "before: 우하단 균일 백색 공백 위에 주황 'plate 18x9x2cm (가림보정)' 박스(우측 약간 잘림)와 apple 대형 박스. 내부 완전 공백. after: 전부 소거.",
+   "reason": "명백한 공백 위 주황 유령 박스가 after에서 깨끗이 사라짐. 박스가 커서 눈에 잘 띄고 판독 즉시 가능."
+  }
+ ],
+ "sam_old": [
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe3/sam_laptop_mask.png",
+   "verdict": "채택",
+   "what_visible": "베스트 후보. 라벨 laptop(23.6%). 테이블 위 노트북을 노란 마스크가 통째로 정확히 덮음. 주황 윤곽선이 노트북 외곽을 깔끔하게 따라가고 배경(테이블·유리창) 침범 없음. bbox도 물체와 일치.",
+   "reason": "한 장만 봐도 '물체=마스크'가 즉시 확인되는 대면적·고정밀 마스크. 축소해도 판독 가능.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe3/sam_towel_mask.png",
+   "verdict": "채택",
+   "what_visible": "베스트 후보. 라벨 towel(23.3%). 체크무늬 수건 전체를 마스크가 정확히 덮고, 로봇 그리퍼가 가린 부분만 자연스럽게 파여 있음. 윤곽선이 수건 경계를 정밀하게 추종, 테이블 침범 없음.",
+   "reason": "가림(occlusion) 처리까지 보이는 가장 깨끗한 성공 사례. 12장 중 최고 품질.",
+   "quality": 10
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe3/sam_toy_mask.png",
+   "verdict": "채택",
+   "what_visible": "베스트 후보. 라벨 pink toy(2.9%). 테이블 왼쪽의 둥근 인형 하나를 마스크가 통째로 덮음. 오른쪽 주황색 바구니는 침범하지 않음. 크기는 작지만 bbox와 함께 명확히 보임.",
+   "reason": "소형 물체 성공 사례. 2.9%로 축소 시에도 식별 가능하고 오답 여지 없음.",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe5/sam_duster_bad_mask.png",
+   "verdict": "채택",
+   "what_visible": "워스트 후보. 라벨 duster(9.2%). 먼지떨이 머리 부분은 덮었으나 마스크 중앙~우측이 심하게 디더링된 점묘 노이즈로 흩어져 있고, 별도의 노란 조각이 오른쪽 로봇 그리퍼 영역까지 번져 있음. 그리퍼 주변에도 주황 스펙클 산재.",
+   "reason": "마스크가 지저분하게 깨지고 로봇 손까지 침범한 것이 한눈에 보이는 명확한 실패 사례.",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe5/sam_doll_bad_mask.png",
+   "verdict": "채택",
+   "what_visible": "워스트 후보. 라벨 doll(12.2%). 마스크가 여러 갈래 띠 모양으로 조각나 정체불명의 베이지색 털 표면을 덮고, 중앙의 뚜렷한 하늘색 천/인형은 오히려 윤곽선으로 도려내 제외함. 큰 구멍이 여러 개.",
+   "reason": "라벨 물체를 일관되게 덮지 못하고 조각·구멍투성이인 것이 확대 없이도 보이는 실패 사례.",
+   "quality": 7
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe3/sam_drink_mask.png",
+   "verdict": "탈락",
+   "what_visible": "라벨 bottle, 184px(0.1%). 화면 하단 중앙에 주황 점 하나 수준의 마스크만 존재. 무엇을 덮었는지 원본 크기에서도 식별 불가.",
+   "reason": "화면의 0.1%로 보고서 축소 크기에서 완전히 안 보임(1% 미만 기준 미달).",
+   "quality": 1
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe3/sam_rose_small_mask.png",
+   "verdict": "탈락",
+   "what_visible": "라벨 rose, 769px(0.3%). 화면 상단 가장자리 bbox 안에 작은 주황 조각만 있음. 장면에는 분홍 꽃병과 로봇 팔만 보이고 장미는 사실상 프레임 밖.",
+   "reason": "0.3%로 축소 시 식별 불가(1% 미만 기준 미달). 실패 사례로 쓰기에도 뭐가 잘못됐는지 보이지 않음.",
+   "quality": 1
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe3/sam_rose_big_mask.png",
+   "verdict": "탈락",
+   "what_visible": "라벨 rose(15.4%). 마스크가 장미꽃뿐 아니라 꽃병 전체까지 함께 덮음(확대 확인). 꽃 자체가 노란색이라 노란 마스크와 육안 구분이 안 됨.",
+   "reason": "'rose' 라벨에 꽃병 포함이 정답인지 오답인지 보는 사람마다 갈릴 수 있고, 꽃 색과 마스크 색이 겹쳐 판독이 애매함. 베스트/워스트 어느 쪽으로도 즉시 판정 불가.",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe3/sam_tpaste_mask.png",
+   "verdict": "탈락",
+   "what_visible": "라벨 toothpaste(24.6%). 흰 대야 안의 거대한 초록-노랑 물체를 마스크가 덮고 있으나 극단적 근접+블러로 이것이 치약인지 육안 식별 불가.",
+   "reason": "물체 자체를 알아볼 수 없어 마스크가 맞았는지 틀렸는지 판정할 수 없음. 애매 기준으로 탈락.",
+   "quality": 3
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe3/sam_tpaste_ok_mask.png",
+   "verdict": "탈락",
+   "what_visible": "라벨 toothpaste(2.2%). 화면 좌하단 구석의 블러된 초록-노랑 길쭉한 물체(치약 추정)를 마스크가 대체로 덮으나, 하단 경계가 이중 윤곽으로 지저분하고 프레임에 잘림.",
+   "reason": "물체가 심하게 흐릿하고 구석의 작은 영역이라 축소 시 성공 사례임을 알아볼 수 없음. 애매 기준으로 탈락.",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe5/sam_towel_bad_mask.png",
+   "verdict": "탈락",
+   "what_visible": "라벨 towel(7.2%). 그리퍼가 수건을 쥔 장면. 마스크가 그리퍼에 가려지지 않은 체크무늬 수건 부분들을 3조각으로 덮음. 조각남은 가림에 의한 자연스러운 결과로 보이며, 육안으로는 오히려 제대로 된 마스크로 보임.",
+   "reason": "파일명은 bad지만 시각적으로는 멀쩡해 보임. 워스트로 제시하면 '이게 왜 실패냐'는 반문이 나올 사례(이전 실패 유형과 동일).",
+   "quality": 6
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe5/sam_towel_bad2_mask.png",
+   "verdict": "탈락",
+   "what_visible": "라벨 towel(7.7%). sam_towel_bad와 거의 동일한 장면·양상. 가림 주변의 수건 조각들을 마스크가 그럴듯하게 덮고 있어 실패로 보이지 않음.",
+   "reason": "시각적으로 실패임이 드러나지 않는 '수치상 워스트'. 보고서 신뢰를 깎을 위험이 있어 탈락.",
+   "quality": 6
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe5/sam_towel_mask.png",
+   "verdict": "탈락",
+   "what_visible": "probe3/sam_towel_mask.png과 md5 동일(663220321c5374f0c282a15031de4cc6)한 중복 렌더. 내용은 베스트급 수건 마스크.",
+   "reason": "완전 중복 파일. 베스트 후보는 probe3 쪽 한 장만 채택하면 충분.",
+   "quality": 10
+  }
+ ],
+ "ghost2": [
+  {
+   "file": "brainco_PickCharger_ep5_cam_left_high_charger_f174",
+   "verdict": "탈락",
+   "quality": 1,
+   "what_visible": "before/after 모두 plate 박스 1개만 존재. charger 박스는 양쪽 어디에도 없음. 픽셀 diff 확인 결과 변화는 plate 박스 위치 미세 이동뿐.",
+   "reason": "제거 대상인 charger 박스가 before에 아예 안 그려져 있어 유령 제거 데모가 성립하지 않음."
+  },
+  {
+   "file": "brainco_PickCharger_ep5_cam_left_high_charger_f181",
+   "verdict": "탈락",
+   "quality": 1,
+   "what_visible": "before/after 모두 plate 박스(노랑, 접시 위 정상 위치)만 존재. charger 박스 없음. diff는 plate 박스 미세 이동뿐.",
+   "reason": "before에 charger 박스가 없음. 전후 차이가 유령 제거가 아니라 plate 박스 위치 이동."
+  },
+  {
+   "file": "brainco_PickCharger_ep5_cam_left_high_charger_f184_B",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "before: 빈 흰 테이블 허공에 'charger 6x5x2cm (추정)' 박스가 떠 있음(실제 charger는 아래 plate 위에 보임) + plate 박스. after: charger 박스 완전 제거, plate 박스만 정상 위치에 잔존.",
+   "reason": "빈 테이블 위 유령 박스가 명확히 보이고 after에서 그것만 깨끗이 사라짐. 한눈에 판별 가능."
+  },
+  {
+   "file": "brainco_PickCharger_ep5_cam_right_high_charger_f174",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "before: 'charger 6x6x3cm' 박스가 로봇 은색 손등 위에 그려짐(박스 안에 charger 없음) + plate 박스 정상. after: charger 박스 제거, plate 박스만 잔존.",
+   "reason": "charger 박스가 로봇 손 위라는 명백히 잘못된 위치에 있고 after에서 그것만 제거됨."
+  },
+  {
+   "file": "brainco_PickCharger_ep5_cam_right_high_charger_f181",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "before: 'charger 7x5x4cm' 박스가 그리퍼(검정 손) 위에 그려져 있고, 실제 흰색 charger는 아래 plate 박스 안에 뚜렷이 보임. after: charger 박스 제거, plate 박스 유지.",
+   "reason": "실제 물체가 다른 곳에 뚜렷이 보이는 상태에서 엉뚱한 위치의 charger 박스가 제거됨. 오류와 개선이 모두 즉시 보임."
+  },
+  {
+   "file": "brainco_PickCharger_ep5_cam_right_high_charger_f184_B",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "before: 'charger 6x5x2cm (가림보정)' 박스가 로봇 은색 손목 위에 그려짐, 실제 charger는 plate 위에 보임. after: charger 박스 제거, 'plate (추정)' 박스만 잔존.",
+   "reason": "손목 위 유령 charger 박스가 제거되고 정상 plate 박스는 유지됨. 확대 시 오류 위치 명확."
+  },
+  {
+   "file": "brainco_PickCharger_ep5_cam_right_wrist_plate_f198",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "before: 손목캠이 방 안쪽을 보는 장면의 우하단 허공(바닥/배경)에 'plate 29x12x1..' 3D 와이어프레임이 떠 있음. after: 박스가 하나도 없는 깨끗한 이미지.",
+   "reason": "접시가 전혀 없는 실내 배경 허공의 plate 박스가 완전히 사라짐. 단일 유령의 교과서적 제거."
+  },
+  {
+   "file": "brainco_PickCharger_ep5_cam_right_wrist_plate_f205",
+   "verdict": "탈락",
+   "quality": 2,
+   "what_visible": "before: 우측 가장자리에 plate 박스의 일부 조각만 걸쳐 있음(라벨 치수도 화면 밖으로 잘림, 검은 배경 위 작은 파편). after: 깨끗.",
+   "reason": "유령 박스가 가장자리에 잘려 파편만 보여 한 장만 봐서는 무엇이 잘못됐는지 즉시 안 들어옴. 데모 임팩트 부족."
+  },
+  {
+   "file": "brainco_PickCharger_ep5_cam_right_wrist_plate_f208_B",
+   "verdict": "탈락",
+   "quality": 2,
+   "what_visible": "before: 우측 가장자리에 charger(주황)·plate(파랑) 박스가 둘 다 검은 로봇 팔/허공 위에 걸쳐 있음. after: plate 박스는 사라졌으나 'charger 5x10x7' 유령 박스가 여전히 허공에 잔존.",
+   "reason": "대상 plate 박스는 제거됐지만 after에 다른 유령(charger) 박스가 그대로 남아 개선이 불완전해 보임."
+  },
+  {
+   "file": "brainco_PickDoll_ep5_cam_left_wrist_doll_f168",
+   "verdict": "탈락",
+   "quality": 2,
+   "what_visible": "before: 우하단 어두운 배경에 doll 박스 + 좌상단 검은 로봇 팔 위에 'plate 4x2x4cm' 박스. after: doll 박스는 제거됐으나 plate 박스가 로봇 팔 위에 그대로 잔존.",
+   "reason": "after에 로봇 팔 위 plate 유령 박스가 남아 있어 한 장만 보면 여전히 '못했네'로 읽힘."
+  },
+  {
+   "file": "brainco_PickDoll_ep5_cam_left_wrist_doll_f175",
+   "verdict": "탈락",
+   "quality": 1,
+   "what_visible": "before: doll 박스가 우측 가장자리에 모서리만 잘려 보임 + 'plate 10x4x15cm' 박스가 그리퍼 손가락을 감싸고 있음. after: doll 박스만 제거, 그리퍼 위 plate 박스 잔존.",
+   "reason": "제거된 doll 박스가 가장자리 파편이라 임팩트가 없고, after에 그리퍼를 감싼 plate 유령이 그대로 남음."
+  },
+  {
+   "file": "brainco_PickDoll_ep5_cam_left_wrist_doll_f178_B",
+   "verdict": "탈락",
+   "quality": 2,
+   "what_visible": "before: 우하단 빈 배경에 'doll 19x13x6cm' 박스(완전 가시) + 그리퍼 위 'plate 13x4x17cm (가림보정)' 박스. after: doll 박스는 깨끗이 제거됐으나 그리퍼 위 plate(추정) 박스 잔존.",
+   "reason": "doll 유령 제거 자체는 명확하지만 after에 그리퍼를 감싼 plate 유령 박스가 남아 결과 이미지가 깨끗하지 않음."
+  },
+  {
+   "file": "brainco_PickDoll_ep5_cam_left_wrist_plate_f179",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "before: 'plate 14x4x18cm' 박스가 그리퍼 손가락/검은 몸통을 크게 감싸고 있고(접시 없음) 우하단에 doll 박스도 있음. after: 박스가 전혀 없는 완전히 깨끗한 이미지.",
+   "reason": "그리퍼를 감싼 명백한 plate 유령이 사라지고 after가 완전 무박스. 전후 대비가 극명."
+  },
+  {
+   "file": "brainco_PickDoll_ep5_cam_left_wrist_plate_f186",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "before: 'plate 21x6x21cm' 박스가 그리퍼 상단부를 감싸고, 우측 빈 바닥에 'doll 10x30x56cm' 와이어프레임이 떠 있음. after: 박스 전무.",
+   "reason": "두 유령 박스(그리퍼 위 plate, 허공 doll)가 모두 제거되어 after가 완전히 깨끗함."
+  },
+  {
+   "file": "brainco_PickDoll_ep5_cam_left_wrist_plate_f189_B",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "before: 'plate 21x5x19cm (가림보정)' 박스가 그리퍼를 감싸고 우측 허공에 'doll 4x25x54cm' 박스. after: 박스 전무.",
+   "reason": "방식B에서도 그리퍼 위 plate 유령과 허공 doll 유령이 모두 제거됨. 전후 대비 극명."
+  },
+  {
+   "file": "brainco_PickDrink_ep5_cam_left_wrist_bottle_f201",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "before: 하단 어두운 바닥/구조물 위 허공에 'bottle 29x25x30cm' 박스가 라벨과 함께 완전한 형태로 떠 있음(병 없음). after: 박스 전무.",
+   "reason": "병이 없는 바닥 허공의 bottle 박스가 통째로 사라짐. 단일 유령 제거가 즉시 보임."
+  },
+  {
+   "file": "brainco_PickDrink_ep5_cam_left_wrist_bottle_f208",
+   "verdict": "채택",
+   "quality": 3,
+   "what_visible": "before: 흰 바닥 위에 'bottle 34x21x21cm' 라벨과 박스 상단면이 보임(하단 가장자리에 일부 잘림, 병 없음). after: 박스 전무.",
+   "reason": "빈 바닥 위 bottle 유령이 제거됨. 박스가 하단에 일부 잘렸지만 라벨과 상단면이 뚜렷해 오류 판독 가능."
+  },
+  {
+   "file": "brainco_PickDrink_ep5_cam_left_wrist_bottle_f211_B",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "before: 하단 바닥에 'bottle 31x13x15cm' 박스(일부 잘림) + 우측 빈 흰 표면 위 'plate 12x18x15cm' 박스가 완전한 형태로 떠 있음. after: 두 박스 모두 제거되어 전무.",
+   "reason": "대상 bottle 유령 제거 + 부수적 plate 유령까지 사라져 after가 완전히 깨끗함."
+  },
+  {
+   "file": "brainco_PickDrink_ep5_cam_left_wrist_plate_f182",
+   "verdict": "탈락",
+   "quality": 2,
+   "what_visible": "before: 병 주위 정상 bottle 박스(초록) + 우측에 'plate 23x39x28cm' 박스(파랑). plate 박스 아래에는 초점 나간 대형 흰 표면이 깔려 있음. after: plate 박스만 제거, bottle 박스 유지.",
+   "reason": "plate 박스 밑의 흰 표면이 접시인지 로봇 몸체/병 포장인지 한 장만 봐서는 식별 불가라 유령 여부가 애매함."
+  },
+  {
+   "file": "brainco_PickDrink_ep5_cam_left_wrist_plate_f189",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "before: 실제 병 위 정상 'bottle 31x15x7cm' 박스(초록) + 'plate 10x39x39cm' 박스(파랑)가 로봇 흰 손/손가락 위에 세로로 그려짐(접시 없음). after: plate 박스만 제거되고 bottle 박스는 그대로 유지.",
+   "reason": "잘못된 plate 박스(로봇 손 위)만 선택적으로 제거되고 정상 bottle 박스는 유지됨을 한 쌍에서 동시에 보여줌."
+  },
+  {
+   "file": "brainco_PickDrink_ep5_cam_left_wrist_plate_f192_B",
+   "verdict": "탈락",
+   "quality": 2,
+   "what_visible": "before: 병 주위 bottle(가림보정) 박스 + 우측 'plate 9x30x38cm (가림..)' 박스가 초점 나간 대형 흰 표면 위에 걸쳐 있음. after: plate 박스 제거, bottle 박스(초록) 유지.",
+   "reason": "f182와 동일하게 plate 박스 밑에 정체 불명의 흰 표면이 있어 유령인지 실물인지 즉시 판단 불가."
+  }
+ ],
+ "gdbp2": [
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_best_bottle_he_f61.png",
+   "verdict": "채택",
+   "what_visible": "테이블 위 흰 물병에 초록 2D 박스 'bottle 0.56'가 타이트하게 정확히 둘러져 있음. 옆의 트레이도 'container 0.40'으로 별도 검출.",
+   "reason": "박스가 물병 윤곽에 거의 딱 맞음. 처음 보는 사람도 즉시 '잘했네'라고 판단 가능한 깨끗한 베스트 사례.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_best_towel_he_f62.png",
+   "verdict": "채택",
+   "what_visible": "체크무늬 수건 전체를 초록 박스 'towel 0.53'이 감쌈. 수건 좌측 위에 로봇 그리퍼가 걸쳐 있으나 수건 범위와 박스가 거의 일치.",
+   "reason": "수건 전체가 박스 안에 정확히 들어있고 여백이 적음. 명백한 성공 사례로 즉시 판독 가능.",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_best_duster_he_f38.png",
+   "verdict": "채택",
+   "what_visible": "테이블 위 회색 먼지떨이에 초록 박스 'duster 0.43'. 먼지떨이 전체가 박스 안에 있고, 우측으로 검은 그리퍼 손까지 약간 포함되어 다소 여유 있음.",
+   "reason": "대상 물체를 정확히 포착. 그리퍼 포함으로 약간 느슨하지만 오검출로 오해할 여지는 없음 — 베스트로 무리 없음.",
+   "quality": 7
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/gd/gd_best_rose_he_f82.png",
+   "verdict": "채택",
+   "what_visible": "화면 상단에 분홍 장미 두 송이가 걸쳐 있고, 초록 박스 'rose 0.35'가 꽃송이 부분을 감쌈. 박스 상단은 이미지 경계에 잘림.",
+   "reason": "박스가 장미 꽃송이 위치에 정확히 놓임. 이미지 상단 잘림에도 대상 식별이 명확해 2D 검출 성공으로 즉시 판독 가능. 다만 잘림 때문에 최상급 쇼케이스는 아님.",
+   "quality": 7
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_best_rose_he_f82.png",
+   "verdict": "탈락",
+   "what_visible": "장미 두 송이 중 왼쪽 한 송이에만 작은 3D 박스 'rose 8x7x3cm'. 박스 상단이 이미지 경계에 잘리고 오른쪽 송이는 박스 밖.",
+   "reason": "베스트 기준(장미≈30cm)에 크게 미달 — 8x7x3cm은 꽃송이 하나 크기로 전체 장미 대비 약 4배 과소. 두 송이 중 하나만 커버하고 상단 잘림까지 있어 애매함 → 탈락.",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_best_duster_he_f38.png",
+   "verdict": "채택",
+   "what_visible": "테이블 위 먼지떨이를 초록 3D 박스 'duster 34x14x11cm'가 길이 방향으로 정렬해 감쌈. 박스 바닥면이 테이블 면과 일치.",
+   "reason": "34cm는 실물(≈35cm)과 일치하고 박스 방향·위치가 물체와 잘 정렬됨. 처음 보는 사람도 즉시 성공으로 판독 가능한 베스트.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_worst_towel_max_f82.png",
+   "verdict": "채택",
+   "what_visible": "그리퍼가 수건을 들어올리는 장면. 'towel 50x47x39cm'의 거의 정육면체 3D 박스가 수건 위쪽 허공+그리퍼에 걸쳐 있고, 늘어진 수건의 오른쪽·아래 절반은 박스 밖.",
+   "reason": "얇은 수건에 39cm 두께의 큐브가 씌워졌고 위치도 위로 치우쳐 수건 상당 부분이 박스 밖 — 과대·위치 어긋남이 한눈에 보이는 명백한 실패 사례.",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_worst_duster_he_f98.png",
+   "verdict": "채택",
+   "what_visible": "화면 하단 가장자리에 노란 3D 박스 'duster 52x9x10cm'가 대부분 빈 테이블 위로 길게 그려짐. 실제 먼지떨이는 박스 오른쪽 끝에 일부만 걸침.",
+   "reason": "박스 대부분이 빈 테이블을 덮고 물체는 끄트머리에만 걸침 + 52cm는 실물(≈35cm) 대비 1.5배 과대. 위치 어긋남이 즉시 보이는 명백한 워스트.",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_worst_rose_hri_f130.png",
+   "verdict": "채택",
+   "what_visible": "사람 손이 장미 줄기(잎 위주)를 들고 있는 장면. 노란 박스 'rose 33x12x10cm'가 이미지 우상단 모서리에 조각처럼 잘려 그려져 있고, 실제 식물은 전혀 덮지 못함.",
+   "reason": "박스가 화면 모서리에 박혀 대상(잎/줄기)과 완전히 어긋남 — 위치 실패가 한눈에 보이는 명백한 워스트. 다만 박스가 너무 작게 잘려 눈에 덜 띄는 점은 감점.",
+   "quality": 7
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6cpu/bp/bp_worst_oreo_wrist_f111.png",
+   "verdict": "탈락",
+   "what_visible": "손목 캠 근접 샷. 그리퍼가 쥔 파란 오레오 봉지에 초록 3D 박스 'oreo 27x13x3cm'가 봉지 윤곽에 상당히 잘 맞게 둘러져 있음.",
+   "reason": "워스트 후보인데 결과가 그럴듯해 보임 — 박스가 봉지에 거의 정확히 정렬되어 처음 보는 사람은 오히려 '잘했네'라고 읽음. 27x13cm 과대 여부도 육안으로 명백하지 않음. 워스트 예시로 부적합 → 탈락.",
+   "quality": 3
+  }
+ ],
+ "depth": [
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/depth/dp_cube_wrist_stable_f160-161.png",
+   "verdict": "채택",
+   "what_visible": "위/아래 두 행의 RGB(루빅스큐브 근접 wrist 뷰)와 깊이 컬러맵이 사실상 동일. 큐브 영역 짙은 남색, 우측 원경 빨강까지 색 분포가 그대로 유지. 수치도 0.24m→0.24m.",
+   "reason": "두 프레임의 컬러맵과 수치가 완전히 일치해 '안정' 사례로 즉시 읽힘. 처음 보는 사람도 한눈에 이해 가능.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/depth/dp_cube_wrist_jump_f195-196.png",
+   "verdict": "채택",
+   "what_visible": "RGB는 두 행이 거의 같은 장면(좌측 큐브, 상단 그리퍼 손가락)인데 깊이 컬러맵이 극적으로 다름. f195는 테이블이 짙은 보라/남색, f196은 전체가 청록·초록으로 변하고 상단 손가락 주변이 초록→주황으로 반전. 수치 0.18m→0.68m.",
+   "reason": "장면이 거의 동일한데 컬러맵 전체 색이 완전히 뒤바뀌어 '깊이가 프레임 사이에 튄다'가 한 장으로 즉시 전달됨. 워스트 사례로 가장 설득력 있는 이미지.",
+   "quality": 10
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/depth/dp_oreo_head_stable_f77-78.png",
+   "verdict": "채택",
+   "what_visible": "양팔 로봇과 트레이가 보이는 head 뷰. 두 행의 RGB·컬러맵이 사실상 동일(테이블 청록→파랑 그라데이션, 원경 빨강). 오레오 박스 영역도 같은 파랑. 수치 0.69m→0.69m.",
+   "reason": "두 행이 복사한 듯 동일해 '안정' 사례로 명확. 즉시 판독 가능.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/depth/dp_oreo_head_jump_f23-24.png",
+   "verdict": "탈락",
+   "what_visible": "두 행의 RGB 거의 동일. 깊이 컬러맵도 한눈에는 거의 같아 보임 — 확대 비교해야 f24 테이블 상단이 약간 더 초록으로 shift된 것이 보이는 수준. 박스 영역은 둘 다 비슷한 파랑. 차이는 사실상 텍스트 수치(0.72→0.82m)에만 있음.",
+   "reason": "워스트 후보인데 컬러맵이 그럴듯하게 안정적으로 보임. 사수가 이 한 장으로 '깊이가 흔들린다'를 즉시 알 수 없고, 확대해야 겨우 보이는 수준의 차이 — 애매하므로 탈락.",
+   "quality": 3
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/depth/dp_apple_head_stable_f154-155.png",
+   "verdict": "채택",
+   "what_visible": "사과 접시를 잡으려는 head 뷰. 두 행의 RGB·컬러맵이 사실상 동일(테이블 청록, 로봇 몸체 남색, 원경 주황). 수치 0.63m→0.63m.",
+   "reason": "두 행이 동일해 '안정' 사례로 명확하게 읽힘.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/depth/dp_apple_head_jump_f218-219.png",
+   "verdict": "탈락",
+   "what_visible": "두 행의 RGB 거의 동일(접시 위 사과). 깊이 컬러맵도 육안으로는 거의 동일 — 확대 비교 시에만 f219가 미세하게 더 밝은 청록/초록으로 shift. 사과 박스 영역은 둘 다 같은 파랑. 차이는 텍스트 수치(0.66→0.77m)뿐.",
+   "reason": "워스트 후보인데 컬러맵이 안정적으로 그럴듯하게 보임. 점프가 그림으로 전달되지 않고 숫자를 읽어야만 알 수 있음 — 기준 미달로 탈락.",
+   "quality": 3
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/depth/dp_doll_head_stable_f195-196.png",
+   "verdict": "채택",
+   "what_visible": "인형을 집는 head 뷰. 두 행의 RGB·컬러맵이 사실상 동일 — 박스 안 인형 실루엣이 두 행 모두 같은 파랑 블롭으로 유지, 테이블 청록/원경 빨강도 동일. 수치 0.84m→0.84m.",
+   "reason": "박스 안 물체 실루엣까지 두 행이 동일하게 유지돼 '안정' 사례로 명확.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/depth/dp_doll_head_jump_f104-105.png",
+   "verdict": "채택",
+   "what_visible": "RGB는 두 행 거의 같은 장면(그리퍼 옆 인형). f104의 박스 안에는 인형 실루엣이 뚜렷한 파랑 블롭으로 보이는데, f105의 박스 안에서는 그 파랑이 사라지고 테이블과 같은 청록/초록으로 묻혀 실루엣이 거의 안 보임. 수치 0.87m→0.95m.",
+   "reason": "박스가 시선을 유도하는 영역 안에서 물체 색이 파랑→초록으로 변해 '같은 장면인데 물체 깊이가 프레임 사이에 밀려났다'가 그림으로 전달됨. cube만큼 극적이진 않지만 육안 판독 가능.",
+   "quality": 7
+  }
+ ],
+ "sam_he": [
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hb_bottle1_f117.png",
+   "verdict": "탈락",
+   "what_visible": "프레임 우측 끝, 검은 그리퍼 손가락 사이로 보이는 둥근 연노랑 물체에 단일 마스크. 물체가 프레임에 잘리고 그리퍼에 크게 가려져 병인지 컵인지 식별 불가.",
+   "reason": "마스크는 단일 영역으로 깔끔하지만 대상 물체 자체가 가림+프레임 잘림으로 정체 확인이 안 됨. 처음 보는 사수가 '잘했네'를 즉시 판단할 수 없는 애매한 케이스 → 기준대로 탈락.",
+   "quality": 3
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hb_bottle2_f32.png",
+   "verdict": "채택",
+   "what_visible": "흰 테이블 위에 서 있는 병(상단 프레임 잘림)을 노란 마스크+주황 윤곽이 몸통 전체를 정확히 단일 영역으로 덮음. 옆의 회색 바구니는 침범 없음.",
+   "reason": "병 실루엣을 픽셀 단위로 타이트하게 덮은 명백한 성공. 한 장만 봐도 즉시 '잘했네' 판단 가능.",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hb_laptop1_f43.png",
+   "verdict": "채택",
+   "what_visible": "닫힌 Dell 노트북 상판 전체를 단일 마스크가 타이트하게 덮음. 우하단 그리퍼가 겹친 부분만 정확히 파여 있음. 배경·테이블 침범 없음.",
+   "reason": "경계가 노트북 윤곽과 정확히 일치하고 가림 부위 처리까지 자연스러운 명백한 성공 사례.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hb_laptop2_f5.png",
+   "verdict": "채택",
+   "what_visible": "펼쳐진 노트북(화면+키보드 베이스)을 뒤쪽 시점에서 단일 마스크가 전체를 덮음. 윤곽선이 노트북 모서리를 따라 타이트하게 붙어 있음.",
+   "reason": "열린 상태의 복잡한 형상도 한 영역으로 정확히 분할. 배경 기둥이나 테이블로의 침범 없이 명백한 성공.",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hb_rose1_f86.png",
+   "verdict": "채택",
+   "what_visible": "프레임 상단의 주황-노랑 장미 꽃송이 하나를 단일 마스크가 정확히 덮음. 테이블 위 분홍 화병은 침범 없음.",
+   "reason": "꽃송이 경계를 타이트하게 따라간 단일 영역 마스크. 꽃이 프레임 상단에 일부 잘리긴 했지만 보이는 부분의 분할 성공이 즉시 확인됨.",
+   "quality": 7
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hb_rose2_f165.png",
+   "verdict": "채택",
+   "what_visible": "화병에 꽂힌 두 송이 중 노란 장미 한 송이만 주황 윤곽으로 정확히 분할. 옆의 분홍 장미와 잎·화병은 침범 없음. 확대 시 윤곽이 꽃잎 경계와 일치.",
+   "reason": "인접한 다른 장미와 혼동 없이 한 송이를 깔끔하게 잡은 성공 사례. components=2지만 확대해도 두 번째 조각은 스템 근처 미세 점 수준이라 시각적으로 단일 영역으로 읽힘.",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hb_towel1_f7.png",
+   "verdict": "채택",
+   "what_visible": "테이블 위에 펼쳐진 격자무늬 수건 전체를 단일 마스크가 구겨진 가장자리까지 타이트하게 덮음. 테이블 침범 없음.",
+   "reason": "변형 물체(수건)를 주름 윤곽까지 정확히 한 영역으로 분할한 교과서적 성공. 즉시 '잘했네' 판정 가능.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hb_towel2_f34.png",
+   "verdict": "채택",
+   "what_visible": "펼쳐진 수건 전체를 단일 마스크가 덮고, 좌측에서 접근한 그리퍼가 겹친 부분만 정확히 파임. 경계 타이트.",
+   "reason": "그리퍼 가림에도 파편화 없이 단일 영역 유지. 성공이 한눈에 보임.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hb_toy1_f29.png",
+   "verdict": "채택",
+   "what_visible": "테이블 위 둥근 인형(만두 모양 플러시)을 단일 마스크가 윤곽 그대로 덮음. 옆의 주황 바구니는 침범 없음.",
+   "reason": "작은 대상도 배경·바구니와 혼동 없이 정확히 한 영역으로 분할한 명백한 성공.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hb_toy2_f13.png",
+   "verdict": "채택",
+   "what_visible": "hb_toy1과 같은 장면의 다른 프레임. 둥근 인형을 단일 마스크가 타이트하게 덮고 있고 얼굴 무늬가 마스크 위로 비침.",
+   "reason": "단일 영역, 타이트한 경계, 침범 없음. 명백한 성공.",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hw_duster_speck_f32.png",
+   "verdict": "채택",
+   "what_visible": "테이블 위 먼지떨이 영역에 마스크가 수백 개 점(components=229)으로 흩뿌려져 있고, 오른쪽 그리퍼·막대 등 엉뚱한 조각까지 튐. 점묘화처럼 구멍투성이.",
+   "reason": "지시된 실패 패턴(점점이 흩어짐) 그대로. 누가 봐도 '못했네'가 즉시 보이는 파편화 실패 표본.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hw_laptop_over_f36.png",
+   "verdict": "채택",
+   "what_visible": "노트북뿐 아니라 그 뒤로 솟은 검은 수직 기둥까지 프레임 상단 끝까지 통째로 노랗게 덮였고, 우측으로도 배경 블롭까지 과확장(components=5).",
+   "reason": "노트북과 무관한 기둥이 마스크에 포함된 것이 한눈에 보이는 명백한 과확장 실패. 실패 표본으로 즉시 판독 가능.",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hw_rose_vase_f156.png",
+   "verdict": "채택",
+   "what_visible": "rose 라벨인데 마스크가 장미 두 송이는 물론 아래 분홍 화병 몸통 전체까지 하나의 영역으로 통째로 덮음.",
+   "reason": "지시된 채택 조건(rose 마스크가 화분까지 덮으면 채택)에 정확히 부합. 꽃 라벨이 화병까지 삼킨 과확장이 한눈에 보임.",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hw_towel_frag_f92.png",
+   "verdict": "채택",
+   "what_visible": "그리퍼에 걸쳐진 수건 마스크가 상단 조각·하단 두 조각(케이블 선으로 또 갈라짐)·우측 잔조각 2개 등 최소 5~6개로 쪼개짐(components=10). 좌측에 잔점도 있음.",
+   "reason": "한 장의 수건이 조각조각 끊긴 파편화가 확대 없이도 보이고, 우측 끝 잔조각은 배경 경계까지 걸침. 명백한 파편화 실패 표본.",
+   "quality": 7
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hw_towel_frag2_f89.png",
+   "verdict": "채택",
+   "what_visible": "같은 장면의 다른 프레임. 수건 마스크가 상·하·우측 여러 조각으로 갈라졌고(components=13), 우측 프레임 가장자리에는 톱니처럼 너덜너덜한 잔조각·점 스프레이가 보임.",
+   "reason": "파편 수가 더 많고 우측 가장자리 잔조각이 확대 시 명백히 노이즈성. 파편화 실패가 즉시 판독됨.",
+   "quality": 7
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/hw_toy_part_f88.png",
+   "verdict": "탈락",
+   "what_visible": "바구니 안 둥근 토이에 그리퍼 손가락이 얹힌 장면. 마스크는 손가락이 가린 부분만 빼고 보이는 토이 표면을 거의 전부 C자 형태로 덮음(단일 영역).",
+   "reason": "워스트 후보인데 확대해 보면 '가림을 제외한 올바른 분할'로 보여 그럴듯함. 처음 보는 사수는 실패로 인식하지 못할 것 → '그럴듯해 보이는 워스트는 반드시 탈락' 규칙 적용.",
+   "quality": 2
+  }
+ ],
+ "sam_bc": [
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_apple1_f70.png",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "노란 사과가 프레임 하단을 크게 차지하고, 마스크가 사과 표면 전체를 단일 영역으로 덮음. 주황 윤곽선이 사과 경계(그리퍼·배경과의 경계)를 픽셀 단위로 정확히 따라감. components=1.",
+   "reason": "대상 물체(사과)를 하나의 온전한 영역으로 정확히 덮음. 침범·누락 없음. 처음 보는 사람도 즉시 '잘했다'고 판단 가능."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_apple2_f161.png",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "근접 촬영된 사과를 마스크가 통째로 덮음. 윤곽선이 사과의 둥근 경계를 매끈하게 따라가고 위쪽 로봇 팔·그리퍼는 정확히 제외됨. components=1.",
+   "reason": "단일 영역, 경계 정확, 침범 없음. 명백한 성공 사례."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_cube1_f88.png",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "화면 우하단의 루빅스 큐브를 마스크가 단일 영역으로 덮음. 큐브가 모션블러로 약간 흐릿하지만 윤곽선이 큐브 외곽을 잘 따라감. components=1.",
+   "reason": "블러 때문에 경계가 약간 부드럽지만 대상만 온전히 덮은 것이 한눈에 보임. 채택."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_cube2_f111.png",
+   "verdict": "탈락",
+   "quality": 3,
+   "what_visible": "큐브 본체는 잘 덮였으나 상단 텍스트에 components=3이 표기되고, 확대 확인 결과 좌하단 모서리에 본체와 분리된 주황 파편 스펙이 실제로 보임. 우상단 윤곽도 블러 경계 위로 약간 느슨함.",
+   "reason": "베스트 후보 기준인 '하나의 온전한 영역' 미충족(3개 컴포넌트, 파편 육안 확인). 같은 큐브의 bb_cube1이 더 깨끗하므로 굳이 쓸 이유 없음. 애매하면 탈락 원칙 적용."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_doll1_f83.png",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "노란 봉제 인형(두 갈래 형태)을 마스크가 단일 영역으로 덮음. 윤곽선이 인형의 보풀 경계를 잘 따라가고 주변 배경 침범 없음. components=1.",
+   "reason": "인형 전체를 온전히 하나의 영역으로 덮음. 성공이 즉시 보임."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_doll2_f31.png",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "같은 노란 인형이 더 크게 잡힌 프레임. 마스크가 인형을 프레임 하단 끝까지 단일 영역으로 덮고 윤곽선이 보풀 외곽을 정확히 따라감. components=1.",
+   "reason": "단일 영역, 정확한 경계. 명백한 성공 사례."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_drink1_f3.png",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "옆으로 누운 음료 병을 마스크가 통째로 덮음. 확대 확인 결과 왼쪽 초록 뚜껑까지 마스크에 포함되고 윤곽선이 병 목·뚜껑 굴곡까지 정밀하게 따라감. components=1.",
+   "reason": "뚜껑 포함 병 전체를 픽셀 단위로 정확히 단일 영역으로 덮음. 최상급 결과."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_drink2_f191.png",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "카메라에 매우 근접한 병이 프레임 하단 절반을 채우고, 마스크가 구겨진 페트병 표면(바코드 라벨 포함)을 단일 영역으로 덮음. 확대 확인 결과 상단 경계가 그리퍼 손가락·배경을 정확히 제외함.",
+   "reason": "초근접이라 흐릿하지만 병 표면만 정확히 덮은 것이 확인됨. 단일 영역·침범 없음으로 채택. 물체 식별이 다소 어려운 점만 감점."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_oreo1_f122.png",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "초록·노랑 오레오 포장 봉지를 마스크가 통째로 단일 영역으로 덮음. 윤곽선이 구겨진 봉지 외곽을 정밀하게 따라가고 위쪽 그리퍼 손가락은 제외됨. components=1.",
+   "reason": "포장지 전체를 정확히 하나의 영역으로 덮음. 명백한 성공."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_oreo2_f93.png",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "테이블 위 오레오 봉지를 마스크가 단일 영역으로 덮음. 봉지가 약간 흐릿하지만 윤곽선이 외곽을 잘 따라가고 배경 침범 없음. components=1.",
+   "reason": "단일 영역, 정확한 커버리지. 블러로 약간 감점하나 성공이 한눈에 보임."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_tpaste1_f170.png",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "화면 좌하단의 노랑·초록 치약 상자를 마스크가 통째로 덮음. 윤곽선이 상자 모서리를 픽셀 단위로 정확히 따라가고 주변 침범 없음. components=1.",
+   "reason": "대상만 온전히 단일 영역으로 덮음. 최상급 결과."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bb_tpaste2_f35.png",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "프레임 하단 가장자리에 걸친 치약 상자의 보이는 부분 전체를 마스크가 단일 영역으로 덮음. 윤곽선이 상자 경계를 정확히 따라감. components=1.",
+   "reason": "물체가 프레임에 일부만 들어왔지만 보이는 부분을 정확히 덮음. 성공으로 즉시 인지 가능."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bw_apple_hand_f156.png",
+   "verdict": "탈락",
+   "quality": 1,
+   "what_visible": "화면의 43%를 채운 초근접 노란 사과 표면을 마스크가 매끈하게 덮고 있음. 확대 확인 결과 윤곽선이 사과와 로봇 팔(어두운 영역)의 경계를 정확히 따라가며, 손이나 배경을 덮은 부분이 보이지 않음. 두 번째 컴포넌트도 육안으로 안 보임.",
+   "reason": "워스트 후보인데 이미지상으로는 사과를 올바르게 덮은 그럴듯한 결과로 보임. 실패(components=2, prop 소스, 사이즈 오류)가 이미지에서 전혀 드러나지 않으므로 규칙에 따라 반드시 탈락."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bw_doll_frag_f115.png",
+   "verdict": "채택",
+   "quality": 5,
+   "what_visible": "마스크가 6개 컴포넌트로 파편화되어 있음: 노란 인형 보풀 위 L자형 큰 조각 외에 로봇 그리퍼 손가락들 사이·위로 뻗은 가느다란 세로 띠 여러 개가 서로 분리된 윤곽선으로 보이고, 인형 위 파란 천 영역은 구멍처럼 제외됨.",
+   "reason": "여러 조각으로 쪼개진 파편화가 한눈에 보이고 손가락 영역까지 침범한 것이 명백함. 처음 보는 사람도 즉시 실패로 판정 가능한 전형적 실패 사례."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bw_doll_prop_f163.png",
+   "verdict": "채택",
+   "quality": 4,
+   "what_visible": "그리퍼는 비어 있는데 마스크가 프레임 오른쪽 가장자리의 과노출된 밝은 배경 영역과 하단의 형체 불명 블러 영역을 2개의 분리된 덩어리로 덮고 있음. 확대 시 마스크 내부로 배경 조명 반사와 스펙클 구멍이 비쳐 보이며 인형 형태는 전혀 식별 안 됨.",
+   "reason": "인형이 아닌 과노출 배경·블러를 덮은 것이 명백하고 두 조각으로 분리됨. 실패가 즉시 보이는 사례."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bw_drink_45cm_f161.png",
+   "verdict": "탈락",
+   "quality": 1,
+   "what_visible": "마스크가 우하단 모서리의 아주 작은 패치(1.6%)로만 존재. 확대해 보면 프레임 모서리로 막 들어온 노란 물체(병일 가능성)를 그럴듯하게 덮고 있어 오히려 틀렸다고 보이지 않음.",
+   "reason": "실패 포인트(45cm 사이즈 오류)는 이미지에 전혀 드러나지 않고, 마스크 자체는 모서리의 노란 물체를 그럴듯하게 덮은 것처럼 보임. 게다가 화면에서 잘 안 보일 만큼 작음(1.6%, 컷오프 경계). 시각적 실패 증거 부재로 탈락."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bw_oreo_hand_f178.png",
+   "verdict": "탈락",
+   "quality": 2,
+   "what_visible": "그리퍼가 들고 있는 구겨진 오레오 봉지를 마스크가 크게 덮고 있음. 확대 확인 결과 검은 손가락은 윤곽선이 정확히 피해 갔고, 봉지 표면만 덮음. 내부에 작은 스펙클 구멍이 있지만 전체적으로 그럴듯한 분할로 보임.",
+   "reason": "파일명은 hand 침범을 시사하지만 실제 이미지에서는 손가락이 제외되어 있고 봉지를 그럴듯하게 덮음. 워스트 후보가 그럴듯해 보이므로 규칙상 반드시 탈락."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bw_tissue_ghost_f116.png",
+   "verdict": "탈락",
+   "quality": 1,
+   "what_visible": "마스크가 좌하단 모서리의 작은 패치(2.4%, 3개 컴포넌트)로만 존재. 확대하면 희끄무레한 노란 덩어리를 덮고 있고 가장자리에 파편 스펙클이 있으나, 그것이 티슈 팩인지 아닌지 원본 배율에서는 판별 불가.",
+   "reason": "마스크가 너무 작고 무엇을 잘못 덮었는지가 이미지만으로 자명하지 않음. 실패 시연용으로 실격, 애매하면 탈락 원칙 적용."
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/sam/bw_tpaste_hand_f107.png",
+   "verdict": "탈락",
+   "quality": 2,
+   "what_visible": "카메라에 초근접한 Darlie(好来) 치약 상자의 초록 포장면(브랜드 로고·한자 인쇄 선명)을 마스크가 덮고 있음. 확대 확인 결과 손·그리퍼를 덮은 부분은 없고 포장면 위주로 분할됨. 우측 꼬리 부분이 약간 느슨하고 내부에 작은 구멍이 있는 정도.",
+   "reason": "파일명은 hand 침범을 시사하지만 실제로는 치약 포장 자체를 그럴듯하게 덮고 있음. 초근접·광각 왜곡 때문에 이상해 보일 뿐 명백한 실패가 아님. 워스트 후보가 그럴듯해 보이므로 탈락."
+  }
+ ],
+ "bigobj": [
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_doll_head_2dbox_all.png",
+   "verdict": "채택",
+   "what_visible": "흰 테이블 전체에 녹색 박스, 접시에 주황 박스, 우상단 사무용 의자에 노란 박스. 3개 박스 모두 해당 객체에 정확히 맞음",
+   "reason": "모든 2D 박스가 올바른 객체를 타이트하게 잡음. 오검출 없음. 한눈에 '잘했네'가 나오는 장면",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_doll_head_0_white_table_mask.png",
+   "verdict": "채택",
+   "what_visible": "테이블 상판만 연두색 마스크로 덮임. 인형·접시·로봇팔은 깨끗하게 제외됨 (41.8%)",
+   "reason": "경계가 정확하고 스필 없음. 교과서적인 마스크",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_doll_head_0_white_table_3dbox.png",
+   "verdict": "채택",
+   "what_visible": "테이블을 감싸는 녹색 3D 박스. 라벨이 좌측에서 잘려 'x63x53cm'만 보임(메타상 125x63x53cm)",
+   "reason": "박스가 테이블 상판·측면에 잘 맞고 크기도 그럴듯(폭 1.25m). 다만 라벨 첫 수치가 프레임 밖으로 잘린 것이 흠",
+   "quality": 7
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_doll_head_1_plate_mask.png",
+   "verdict": "채택",
+   "what_visible": "접시만 정확히 마스크됨 (2.6%)",
+   "reason": "접시 윤곽과 마스크가 완벽히 일치. 스필·홀 없음",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_doll_head_1_plate_3dbox.png",
+   "verdict": "채택",
+   "what_visible": "접시를 감싸는 주황 3D 박스, 라벨 'plate 19x15x11cm' 선명",
+   "reason": "확대 확인 결과 박스가 접시에 스넉하게 맞고 지름 19cm 그럴듯. 높이 11cm는 다소 과대이나 시각적으로 어색하지 않은 수준",
+   "quality": 7
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_doll_head_2_chair_mask.png",
+   "verdict": "탈락",
+   "what_visible": "우상단 의자 부근에 작은 노란 블롭 (0.9%). 확대해 보면 의자 베이스 일부만 덮는 동물 모양의 불명확한 블롭",
+   "reason": "의자 형태를 따르지 않는 부분 커버 블롭. 처음 보는 사람은 뭘 마스크한 건지 알 수 없음",
+   "quality": 3
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_doll_head_2_chair_3dbox.png",
+   "verdict": "채택",
+   "what_visible": "우상단 프레임에 걸친 사무용 의자(바퀴 베이스 보임)를 노란 3D 박스가 감쌈. 라벨 'chair 45x28x50cm' 판독 가능",
+   "reason": "확대 확인 결과 박스가 보이는 의자 부분에 깔끔히 맞고 50cm는 의자로서 그럴듯. 박스 안에 다른 물체 없음",
+   "quality": 6
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_oreo_head_2dbox_all.png",
+   "verdict": "탈락",
+   "what_visible": "테이블·쟁반·의자(0.64)는 정확한 박스. 좌측 끝 'chair 0.44' 분홍 박스는 확대해도 사람 팔과 어두운 영역만 보여 의자 여부 확인 불가",
+   "reason": "박스 4개 중 1개가 무엇을 잡은 건지 불명확. 애매하면 탈락 원칙 적용",
+   "quality": 6
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_oreo_head_0_plate_mask.png",
+   "verdict": "채택",
+   "what_visible": "원형 쟁반 전체가 녹색으로 정확히 마스크됨 (11.4%)",
+   "reason": "쟁반 윤곽과 완벽 일치, 스필 없음. 최상급 마스크",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_oreo_head_0_plate_3dbox.png",
+   "verdict": "탈락",
+   "what_visible": "평평한 쟁반 위에 거의 정육면체에 가까운 녹색 박스, 라벨 'plate 27x21x18cm'",
+   "reason": "쟁반은 두께 3~4cm의 평면 객체인데 박스 높이가 18cm로 그려져 명백히 붕 뜬 박스. 한눈에 어색함",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_oreo_head_1_white_table_mask.png",
+   "verdict": "채택",
+   "what_visible": "테이블 상판만 마스크됨. 로봇팔·쟁반·오레오 과자는 깨끗하게 제외 (42.5%)",
+   "reason": "경계 정확, 스필 없음. 큰 객체 마스크의 모범 사례",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_oreo_head_1_white_table_3dbox.png",
+   "verdict": "보류",
+   "what_visible": "테이블을 감싸는 주황 3D 박스. 박스 적합도는 좋으나 크기 라벨이 좌상단 프레임 밖으로 완전히 잘려 판독 불가",
+   "reason": "박스 자체는 테이블에 잘 맞고 메타(130x57x56cm)도 그럴듯하지만 이미지만 봐서는 크기를 전혀 알 수 없음. 라벨만 다시 렌더링하면 채택 가능",
+   "quality": 6
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_oreo_head_2_chair_mask.png",
+   "verdict": "채택",
+   "what_visible": "좌상단 검은 의자가 다리까지 의자 실루엣 그대로 노란색으로 마스크됨 (1.9%)",
+   "reason": "작은 객체인데도 의자 형태(등받이+다리)가 뚜렷이 드러나는 정확한 마스크",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_oreo_head_2_chair_3dbox.png",
+   "verdict": "탈락",
+   "what_visible": "좌상단에 노란 3D 박스, 라벨 'chair 54x57x41cm'. 확대하면 박스가 의자보다 왼쪽으로 치우쳐 서 있는 사람 다리를 포함하고 의자 오른쪽이 박스 밖으로 삐져나옴",
+   "reason": "크기는 그럴듯하나 박스 위치가 오프셋되어 사람이 박스 안에 들어가 있음. 깔끔한 샘플이 아님",
+   "quality": 5
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_oreo_head_3_chair_mask.png",
+   "verdict": "탈락",
+   "what_visible": "좌측 프레임 끝에 불규칙한 분홍 블롭 (0.8%). 무슨 객체인지 식별 불가",
+   "reason": "의자 형태가 전혀 아니고 대상 객체 자체가 불명확",
+   "quality": 2
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/bc_oreo_head_3_chair_3dbox.png",
+   "verdict": "탈락",
+   "what_visible": "좌측 끝 분홍 3D 박스 안에 사람 다리가 들어가 있고 라벨은 '53cm'만 남고 잘림",
+   "reason": "대상 불명 + 사람 포함 + 라벨 판독 불가",
+   "quality": 2
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_articulated_2dbox_all.png",
+   "verdict": "탈락",
+   "what_visible": "노트북 박스는 정확. 그러나 'floor 0.36' 박스가 프레임 전체를 덮고 desk 박스도 좌측 바닥 타일까지 걸침",
+   "reason": "박스가 서로 겹쳐 프레임 대부분을 덮어 보여주기용으로 부적합. floor 전체 프레임 박스가 특히 엉성해 보임",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_articulated_0_desk_mask.png",
+   "verdict": "채택",
+   "what_visible": "흰 책상 표면이 녹색으로 마스크되고 노트북·바닥 타일은 제외됨 (31.3%). 책상-바닥 경계를 잘 따라감",
+   "reason": "경계가 깔끔하고 노트북이 정확히 제외됨. 하단 어두운 부분 포함은 책상 앞모서리로 보여 자연스러움",
+   "quality": 7
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_articulated_0_desk_3dbox.png",
+   "verdict": "탈락",
+   "what_visible": "녹색 박스가 프레임 밖까지 뻗고 윗면이 바닥 타일 위에 부유. 크기 라벨 안 보임",
+   "reason": "박스가 책상을 감싼다고 읽히지 않고 메타상 207x68x140cm로 깊이가 명백히 과대. 라벨도 없음",
+   "quality": 3
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_articulated_1_laptop_mask.png",
+   "verdict": "채택",
+   "what_visible": "펼쳐진 노트북(화면+본체)이 통째로 정확히 마스크됨 (24.6%)",
+   "reason": "윤곽 완벽 일치, 스필·홀 없음. 최상급 마스크",
+   "quality": 9
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_articulated_1_laptop_3dbox.png",
+   "verdict": "채택",
+   "what_visible": "펼쳐진 노트북을 주황 3D 박스가 타이트하게 감쌈. 라벨 'laptop 56x28x36cm' 선명",
+   "reason": "박스 적합도가 높고 56cm는 대형 노트북 기준(30~55cm) 상한 수준으로 그럴듯. 한눈에 '잘했네'",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_articulated_2_floor_mask.png",
+   "verdict": "탈락",
+   "what_visible": "배경 타일 바닥이 노란색으로 마스크됨 (38.8%). 분할 자체는 정확해 보임",
+   "reason": "워스트 후보(floor)가 그럴듯해 보이는 전형적 케이스. 짝인 3D 박스가 505cm 비정상이라 세트로 탈락 — 그럴듯해 보여도 반드시 탈락 원칙 적용",
+   "quality": 6
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_articulated_2_floor_3dbox.png",
+   "verdict": "탈락",
+   "what_visible": "노란 박스가 바닥·노트북·책상 위를 임의로 가로지르며 부유. 라벨 잘려 판독 불가",
+   "reason": "메타상 505.6cm — 과제에서 명시한 비정상 예시 그 자체. 박스도 아무것도 감싸지 않음",
+   "quality": 1
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_basic_2dbox_all.png",
+   "verdict": "탈락",
+   "what_visible": "테이블·바구니 박스는 정확하나 좌하단 로봇 그리퍼에 'chair 0.40' 박스가 붙어 있음",
+   "reason": "그리퍼를 의자로 오검출한 박스가 그대로 보임. 한눈에 '못했네'가 나오는 요소 포함",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_basic_0_basket_mask.png",
+   "verdict": "탈락",
+   "what_visible": "바구니 테두리(림)만 녹색 마스크. 내부 쿠션 바닥은 빠졌고 앞쪽 림에 스펙클 노이즈 다수",
+   "reason": "외곽선은 정확하지만 내부 홀 + 얼룩덜룩한 노이즈로 미완성처럼 보임",
+   "quality": 5
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_basic_0_basket_3dbox.png",
+   "verdict": "탈락",
+   "what_visible": "바구니 주위 녹색 3D 박스, 라벨 'basket 34x36x42cm'. 박스가 바구니보다 눈에 띄게 커서 아래로는 테이블 앞모서리 밖까지 뻗음",
+   "reason": "가로 34x36cm는 목표(~35cm)와 맞지만 높이 42cm는 실제(~15cm)의 3배 수준이고 박스가 시각적으로 과대·틀어짐",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_basic_1_chair_mask.png",
+   "verdict": "탈락",
+   "what_visible": "좌하단 로봇 그리퍼가 'chair'로 마스크됨 (3.2%)",
+   "reason": "명백한 오검출 — 의자가 아니라 로봇 손",
+   "quality": 1
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_basic_1_chair_3dbox.png",
+   "verdict": "탈락",
+   "what_visible": "로봇 그리퍼에 'chair 13x18x14cm' 박스",
+   "reason": "오검출 + 13cm짜리 의자라는 비정상 크기. 이중으로 틀림",
+   "quality": 1
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_basic_2_table_mask.png",
+   "verdict": "채택",
+   "what_visible": "테이블 상판이 노란색으로 마스크되고 바구니·인형은 제외됨 (40.8%). 테이프 부근에 약간의 회색 얼룩",
+   "reason": "커버리지와 경계가 좋고 객체 제외가 정확. 사소한 얼룩 외에 흠 없음",
+   "quality": 8
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_basic_2_table_3dbox.png",
+   "verdict": "탈락",
+   "what_visible": "테이블 상판을 감싸는 노란 3D 박스. 크기 라벨이 프레임 밖으로 잘려 안 보임",
+   "reason": "라벨 부재로 크기 확인 불가인 데다 메타상 248x112x166cm — 깊이 166cm는 이 테이블(~60cm)에서 명백히 과대",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_hri_2dbox_all.png",
+   "verdict": "탈락",
+   "what_visible": "'table 0.53' 박스 하나가 로봇팔·테이블 아래 공간까지 프레임 전체를 덮음",
+   "reason": "전체 프레임 박스라 검출 품질을 전혀 보여주지 못함. 보여주기 가치 없음",
+   "quality": 3
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_hri_0_table_mask.png",
+   "verdict": "탈락",
+   "what_visible": "테이블 상판은 잘 마스크됐고 꽃·로봇팔 제외도 좋으나, 테이블 앞모서리 아래 바닥 영역(좌하단·하단 중앙)에 녹색 스필 패치가 보임 (45.4%)",
+   "reason": "상판 밖 바닥으로 번진 스필이 눈에 띄어 깔끔한 샘플이 아님",
+   "quality": 5
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_hri_0_table_3dbox.png",
+   "verdict": "탈락",
+   "what_visible": "녹색 박스의 전면이 테이블 상판 한가운데 떠 있고 모서리 선이 프레임 밖으로 뻗음. 크기 라벨 안 보임",
+   "reason": "박스가 테이블을 감싼다고 읽히지 않고 메타상 깊이 133cm는 이 테이블(~50cm)에서 과대. 라벨도 없음",
+   "quality": 3
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_locomanip_2dbox_all.png",
+   "verdict": "탈락",
+   "what_visible": "'table 0.54' 박스 하나가 프레임 전체를 덮음 (흐릿한 프레임)",
+   "reason": "테이블이 화면 대부분을 차지해 기술적으로는 맞을 수 있으나 전체 프레임 박스는 보여주기 정보가 없음",
+   "quality": 4
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_locomanip_0_table_mask.png",
+   "verdict": "채택",
+   "what_visible": "카트형 테이블 상판이 녹색으로 마스크됨. 젖병·회색 핸들 객체 제외 정확, 확대 확인 결과 앞모서리 경계도 깔끔 (59.4%)",
+   "reason": "흐릿한 원본에도 경계가 테이블 모서리를 잘 따라가고 위 객체 제외가 정확. 미세 스펙클만 있음",
+   "quality": 7
+  },
+  {
+   "file": "/Users/hansangmin/StarFellowship/task3-3dbbox-pipeline/probe6/bigobj/he_locomanip_0_table_3dbox.png",
+   "verdict": "탈락",
+   "what_visible": "라벨 'table 79x60x43cm'은 선명하나 박스 전면 사각형이 상판 중앙부만 덮고 대각선들이 프레임 모서리로 뻗어 테이블 뒷부분·가장자리가 박스 밖",
+   "reason": "원근 렌더링이 혼란스러워 박스가 테이블에 맞는지 이미지만으로 판단 불가. 애매하면 탈락",
+   "quality": 5
+  }
+ ]
+}

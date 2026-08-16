@@ -1,0 +1,39 @@
+{
+ "prompt": "stuffed animal toy . plate .",
+ "n_frames": 220,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "doll": {
+   "is_target": true,
+   "confirmed": false,
+   "accepted": 120,
+   "rejected": 100,
+   "coverage": 0.545,
+   "coasting_frames": 54,
+   "coverage_B": 0.791,
+   "occluded_frames": 150,
+   "n_history": 1,
+   "size_median": [
+    0.4016,
+    0.608,
+    0.2088
+   ],
+   "coverage_det": 0.545,
+   "evidence_ratio": 1.0,
+   "reliability": "양호"
+  },
+  "plate": {
+   "is_target": false,
+   "confirmed": false,
+   "accepted": 0,
+   "rejected": 220,
+   "coverage": 0.0,
+   "coasting_frames": 0,
+   "coverage_B": 0.0,
+   "occluded_frames": 0,
+   "n_history": 0,
+   "size_median": null
+  }
+ }
+}

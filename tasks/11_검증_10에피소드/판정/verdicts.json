@@ -1,0 +1,1400 @@
+[
+ {
+  "unit": "task/brainco/GraspOreo/ep00028_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간1: 그리퍼 옆 빈 테이블, 추적구간2: 로봇 오른손 위; det예시: 접시 위 오레오(정확)",
+  "notes": "로봇 손이 오레오를 쥐어 가린 것으로 보이며, 추적 박스는 손 근처에 붙어 있음."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00028_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "손목 카메라라 로봇 손가락과 하얗게 뜬 테이블만 보이고 오레오는 두 스틸 모두 안 보임."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00028_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간: 그리퍼 옆 빈 테이블/로봇 오른손; det예시: 접시 위 오레오(정확)",
+  "notes": "추적구간2에서 그리퍼 밑에 검은 부분이 살짝 보이는데 오레오인지 그림자인지 확실하지 않음."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00028_cam_right_wrist",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꼬리끝: 테이블 밖 배경 장비 위, 추적구간: 흐릿한 배경/왼손 근처",
+  "notes": "마지막 det까지는 오레오 포장 위에 정확했으나 꼬리에서 카메라가 크게 움직여 박스가 배경에 남음(꼬리중간은 심한 흔들림으로 판단 어려움)."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00035_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간: 로봇 오른손(그리퍼) 위; det예시: 접시 위 오레오(정확)",
+  "notes": "추적구간2에서 손끝에 검은 부분이 보여 쥐고 있는 오레오일 수 있으나 대부분 가려져 확실하지 않음."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00035_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "빈 테이블(실제 오레오는 그리퍼 손끝에 검게 보임)",
+  "notes": "두 추적 스틸 모두 박스가 손 위쪽 빈 테이블에 떠 있고, 실제 오레오는 그리퍼에 쥐여 보이는데 검출기가 놓침."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00057_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간: 로봇 오른손 손끝/빈 테이블; det예시: 접시 위 오레오(정확)",
+  "notes": "오레오가 화면에 안 보이고(손에 가려진 듯) 박스는 손 부근에 붙어 있음."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00057_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간: 로봇 오른손 위; det예시: 접시 위 오레오(정확)",
+  "notes": "두 추적 스틸 모두 박스가 로봇 오른손 위에 있고 오레오 실물은 안 보임."
+ },
+ {
+  "unit": "task/brainco/GraspRubiksCube/ep00163_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 오른손 위(큐브가 손안에 가려진 듯, 주황 조각만 살짝 보임)",
+  "notes": "추적 박스가 1x2x2cm로 찌그러져 오른손 위에 있는데, 큐브가 그 손에 잡혀 가려진 것으로 보여 완전 오류인지 판단 불가."
+ },
+ {
+  "unit": "task/brainco/GraspRubiksCube/ep00163_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 오른손 가장자리(큐브는 손에 가려 안 보임)",
+  "notes": "왼쪽 카메라와 같은 장면으로, 박스가 0x3x3cm로 찌그러져 오른손 가장자리에 있고 큐브 실물은 확인 안 됨."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00006_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "구간1은 손에 든 사과 위(맞음), 구간2는 로봇 왼팔 위(틀림)",
+  "notes": "구간2에서 사과는 왼손 끝에 들려 접시 위에 보이는데 박스는 팔뚝에 남아 있음."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00006_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "두 장 모두 사과가 안 보임. 중간 컷은 흰 면이 카메라에 아주 가까워 100% 확신은 어려움."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00006_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 왼팔 위(틀림), 사과는 왼손 끝에 보임",
+  "notes": "구간2에서 주황색 사과가 왼손 손가락에 잡혀 뚜렷이 보이는데 박스는 팔꿈치 쪽에 붙어 있음."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00006_cam_right_wrist",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꼬리는 천장 쪽 빈 공간, 추적구간은 바닥·테이블을 덮는 큰 박스",
+  "notes": "꼬리 컷은 카메라가 천장을 향해 사과가 없는데 작은 박스가 남아 ghost 맞음. 추적구간 박스는 방 바닥 절반을 덮을 만큼 커서 명백히 틀림."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00026_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "왼손 그립 지점(사과 바로 옆)",
+  "notes": "구간2에서 사과가 왼손 손가락 바로 옆에 보이고 박스는 그 옆에 거의 붙어 있어 약간 벗어난 정도."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00026_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "손목 카메라가 손가락과 천장·방 안쪽만 비추고 사과는 두 장 모두 안 보임."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00062_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "그리퍼에 잡힌 오레오 위(대체로 정확)",
+  "notes": "오레오 봉지가 파란색이라 파란 로봇 칠과 겹쳐 보이지만 실물이 박스 안에 있다."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00062_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "그리퍼에 잡힌 오레오 위(대체로 정확)",
+  "notes": "추적구간 두 컷 모두 그리퍼가 든 오레오 실물 위에 박스가 있다."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00070_cam_left_high",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간1은 오레오 위, 추적구간2와 꼬리는 빈 공간·로봇 팔",
+  "notes": "꼬리끝에서 실제 오레오는 접시 위에 있는데 박스는 오른쪽 로봇 팔 옆 빈 자리에 떠 있다."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00070_cam_right_high",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꼬리는 접시 위 오레오(정확), 추적구간은 로봇 손가락·빈 공간",
+  "notes": "꼬리중간·꼬리끝 모두 접시 위 실물 오레오 위에 박스가 있어서, 꼬리를 자르면 멀쩡한 프레임이 잘린다."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00163_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "그리퍼에 잡힌 오레오 위(대체로 정확)",
+  "notes": "추적구간2는 박스가 그리퍼 쪽으로 치우쳤지만 오레오가 그 부근에 보인다."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00163_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "그리퍼에 잡힌 오레오 위(대체로 정확)",
+  "notes": "추적구간 두 컷 모두 손에 잡힌 오레오가 박스 안에 부분적으로 보인다."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00188_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 손끝(오레오는 손에 가려 안 보임)",
+  "notes": "박스가 손끝에 있는데 오레오가 그 자리에 잡혀 있는지 화면만으로는 알 수 없고, 박스 크기도 2x1x1cm로 너무 작다."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00188_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 손끝 부근(오레오는 안 보임)",
+  "notes": "박스가 손끝과 빈 테이블 경계에 걸쳐 있고 크기가 2x2x1cm 수준으로 너무 작아 실물 대응을 확인할 수 없다."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00189_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "오른쪽 그리퍼 손끝(쥐고 있는 오레오 위치로 보임)",
+  "notes": "그리퍼가 오레오를 쥐고 접시로 옮기는 구간으로 보이며, f0176 박스 아래쪽에 오레오로 보이는 검은 부분이 살짝 보이나 그림자일 수도 있음."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00189_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "f0153은 그리퍼 손끝, f0166은 그리퍼 손목·빈 배경 위",
+  "notes": "f0153은 쥔 오레오 위치로 볼 수 있으나 f0166은 박스가 손끝에서 벗어나 손목 위쪽 빈 곳에 있고, 오레오 실물은 두 장 모두 안 보임."
+ },
+ {
+  "unit": "task/brainco/GraspRubiksCube/ep00006_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "손목 카메라가 자기 손과 방 배경만 비추고 큐브는 안 보임. 다만 화면 상당 부분이 로봇 손에 가려져 있음."
+ },
+ {
+  "unit": "task/brainco/GraspRubiksCube/ep00006_cam_right_wrist",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "빈 흰 배경(파란 팔 옆) 위",
+  "notes": "마지막 det(f0195)까지는 왼쪽 아래에 큐브 실물이 보이지만, 꼬리·추적구간에서는 초록 마스크가 흰 배경 위에만 남아 있고 큐브는 화면 어디에도 없음."
+ },
+ {
+  "unit": "task/brainco/GraspRubiksCube/ep00026_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "자기 손, 사람, 방 배경만 보이고 큐브는 안 보임. 화면 일부는 로봇 손에 가려져 있음."
+ },
+ {
+  "unit": "task/brainco/GraspRubiksCube/ep00026_cam_right_wrist",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 팔 부품(관절·링크) 위",
+  "notes": "f0190까지는 오른쪽 아래에 밝은 노랑·초록 큐브가 보이나, 이후 초록 박스는 화면 아래쪽의 로봇 팔 부품에 옮겨 붙었고 박스 크기도 34~39cm로 실물 큐브보다 훨씬 커짐."
+ },
+ {
+  "unit": "task/brainco/GraspRubiksCube/ep00028_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "자기 손, 사람, 방 배경만 보이고 큐브는 안 보임. 화면 일부는 로봇 손에 가려져 있음."
+ },
+ {
+  "unit": "task/brainco/GraspRubiksCube/ep00028_cam_right_wrist",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "빈 흰 바닥·벽 위",
+  "notes": "마지막 det(f0189)까지는 오른쪽 아래에 주황·노랑 큐브가 보이지만, 꼬리·추적구간에서는 초록 마스크가 흰 바닥 위에 넓게 퍼져 있고 큐브는 안 보임."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00026_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 왼손 위(사과는 바로 옆)",
+  "notes": "추적 박스가 1x1cm 크기로 줄어든 채 사과 옆 로봇 손에 붙어 있고, f0035에서는 사과 가장자리에 살짝 벗어나 있음.",
+  "unit_note_field_check": ""
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00006_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "오른손이 쥔 과자 부근(추적), det예시는 접시 위 과자 위(정확)",
+  "notes": "추적 박스가 손에 가려진 과자 쪽에 붙어 있고, 추적구간2(f155)에서는 과자 일부가 보임."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00006_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "손목 카메라에 손가락과 배경만 크게 보이고 과자는 안 보임."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00006_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "오른손이 쥔 과자 부근(추적), det예시는 접시 위 과자 위(정확)",
+  "notes": "추적 박스가 손 근처의 어두운 과자에 걸쳐 있고 과자는 손에 가려 일부만 보임."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00006_cam_right_wrist",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꼬리·추적구간2는 빈 면(테이블/접시 면) 위, det 스틸은 과자 봉지 위(정확)",
+  "notes": "마지막 검출 뒤 마스크가 면 전체로 크게 번져(30x44x51cm 등) 박스 안에 실물이 안 보임; 추적구간1(f206)은 흐릿해서 판단 어려움."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00026_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간1은 빈 테이블, 추적구간2는 로봇 오른손 위; det예시는 접시 위 과자 위(정확)",
+  "notes": "추적구간2 박스가 1x0x0cm로 무너진 채 손 위에 붙어 있고, 과자는 손안에 있어 화면에서 안 보임."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00026_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "no",
+  "box_on_what": "박스 없음",
+  "notes": "중간 스틸(f110)에서 과자 봉지로 보이는 물체가 손가락 옆에 일부 보이므로 검출 0회는 놓쳤을 가능성이 있음."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00026_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간1은 과자를 쥔 손끝 부근, 추적구간2는 빈 테이블 면; det예시는 접시 위 과자 위(정확)",
+  "notes": "추적구간2(f184)에서 초록 마스크가 물체 없는 빈 자리에 네모로 떠 있고, 실제 과자는 손에 쥔 채 접시 쪽에 일부 보임."
+ },
+ {
+  "unit": "task/brainco/GraspOreo/ep00026_cam_right_wrist",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시 위 과자 봉지 위(꼬리 구간까지 대체로 실물 위)",
+  "notes": "꼬리 스틸에서도 박스 안에 주름진 봉지 실물이 보여 자르면 안 되는 프레임으로 보이나, 박스 크기(46x44x19cm)는 크게 부풀려짐."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00070_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "오른손 옆 테이블/손끝 부근(사과 안 보임), det예시는 접시 위 사과",
+  "notes": "추적 박스가 오른손에 붙어 다니는데 사과가 손에 가려진 것인지 확인 불가."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00070_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "빈 테이블 위(사과는 아래 손 쪽에 보임)",
+  "notes": "추적구간2에서 사과가 손 근처에 보이는데 박스는 위쪽 빈 테이블에 있음."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00163_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "빈 공간(사과는 오른손에 쥐여 있음), det예시는 접시 위 사과",
+  "notes": "추적구간2에서 사과는 오른손에 있는데 박스는 손 아래 빈 곳에 작게 남음. 추적구간1은 손끝 부근이라 판단 애매."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00163_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간1은 사과로 보이는 물체 위, 추적구간2는 빈 테이블(사과는 손에 있음)",
+  "notes": "추적구간2에서 박스가 빈 곳에 남고 사과는 오른손에 보임."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00189_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시 왼쪽 테이블의 사과 위(대체로 정확)",
+  "notes": "박스 위치는 맞는데 그 구간에서 검출기가 사과를 못 찾은 것."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00189_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시 왼쪽의 사과 위(대체로 정확)",
+  "notes": "어두운 색 사과가 박스 안에 실제로 보임. 검출기만 놓친 구간."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00006_cam_left_high",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꼬리에서는 오른손 위쪽 빈 테이블(실물 충전기는 접시 위), 추적구간에서는 오른손 위",
+  "notes": "꼬리끝에서 충전기는 이미 접시 위에 있는데 박스는 딴 곳에 남아 ghost 확실. 추적구간은 충전기가 손에 가려졌을 수 있어 unclear."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00006_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "근접 화면의 충전기로 보이는 물체 위(det 프레임)",
+  "notes": "det예시 1장뿐. 초록으로 칠해진 근접 물체가 충전기로 보이나 화면이 왜곡돼 확신은 낮음."
+ },
+ {
+  "unit": "task/brainco/PickDoll/ep00006_cam_left_wrist",
+  "unit_note_order": 1,
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "초록·흰 털 인형 위(대체로 정확)",
+  "notes": "추적구간 두 장 모두 박스 안에 인형 털 실물이 보임 — 검출기가 실물을 놓친 경우."
+ },
+ {
+  "unit": "task/brainco/PickDoll/ep00006_cam_right_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "흐린 근접 화면 — 로봇 부위/블러 위로 보임",
+  "notes": "det 스틸 1장뿐이고 화면이 심하게 흐려 박스가 인형 위인지 확인 어려움(전체 220프레임 중 det 1회)."
+ },
+ {
+  "unit": "task/brainco/PickDoll/ep00026_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "초록 털 인형 위(대체로 정확)",
+  "notes": "박스가 다소 크게 잡혀 왼쪽에 빈 테이블 일부도 포함하지만 인형을 담고 있음."
+ },
+ {
+  "unit": "task/brainco/PickDoll/ep00026_cam_right_wrist",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "det·꼬리: 화면 아래쪽 인형(청록·초록 털) 부근, 추적구간: 전면 블러 화면 위",
+  "notes": "꼬리중간은 박스 안에 초록 털이 분명히 보여 실물 있음, 꼬리끝은 어두워서 덜 분명. 추적구간 두 장은 카메라가 가려져 화면 전체가 회색 블러라 판단 불가."
+ },
+ {
+  "unit": "task/brainco/PickDoll/ep00028_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "초록 털 인형 위(정확)",
+  "notes": "det 스틸에서 마스크와 박스가 인형에 잘 맞음."
+ },
+ {
+  "unit": "task/brainco/PickDoll/ep00028_cam_right_wrist",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꼬리: 로봇 손가락 위(초록 마스크가 손가락을 칠함), 추적구간: 가려진 블러 화면 위",
+  "notes": "마지막 det 프레임(f210)에서도 이미 초록 마스크가 로봇 손가락에 붙어 있음. 추적구간 두 장은 로봇 팔에 가려진 블러(파란 블러·암흑)라 인형이 안 보임."
+ },
+ {
+  "unit": "task/brainco/PickDrink/ep00006_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "청록색 병 위(정확)",
+  "notes": "det 스틸에서 박스가 병에 잘 맞음."
+ },
+ {
+  "unit": "task/brainco/PickDrink/ep00006_cam_right_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간: 로봇 팔(파란 마스크) 가장자리 위, det: 멀리 선반 옆 작은 물체(병으로 추정)",
+  "notes": "추적 박스가 2~3cm 크기로 쪼그라들어 로봇 팔 위에 있음. 박스 모서리에 노란초록 조각이 살짝 보이나 병인지 확실치 않음."
+ },
+ {
+  "unit": "task/brainco/PickDrink/ep00026_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음(대상 미검출)",
+  "notes": "손목 카메라라 화면 대부분이 로봇 팔이고, 보이는 배경(선반·장비)에도 병은 안 보임."
+ },
+ {
+  "unit": "task/brainco/PickDrink/ep00028_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "우하단 병(초록 마스크) 위(정확)",
+  "notes": "det 예시 1장뿐이며 검출 위치는 실물 병 위로 정상으로 보임."
+ },
+ {
+  "unit": "task/brainco/PickDrink/ep00028_cam_right_wrist",
+  "tail_ghost": "unclear",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "먼 배경의 검은 장비·흰 면 위(병 안 보임)",
+  "notes": "병 박스가 모든 스틸에서 아주 작고 멀어 확대해도 det 프레임에서조차 실물 병을 확인할 수 없음."
+ },
+ {
+  "unit": "task/brainco/PickDrink/ep00035_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시 위에 누운 병(정확)",
+  "notes": "추적 구간에서도 박스가 실물 병 위에 잘 붙어 있고 검출기만 놓친 것으로 보임."
+ },
+ {
+  "unit": "task/brainco/PickDrink/ep00035_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시 위 병(정확)",
+  "notes": "왼쪽 high 카메라와 같은 장면이며 추적 박스가 실물 위에 있음."
+ },
+ {
+  "unit": "task/brainco/PickDrink/ep00062_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시 위 음료(정확)",
+  "notes": "그리퍼가 물체를 일부 가리지만 박스는 실물 음료 위에 있음."
+ },
+ {
+  "unit": "task/brainco/PickDrink/ep00163_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "오른쪽 그리퍼 끝 부근(병 확인 안 됨)",
+  "notes": "추적 구간에서 접시는 비어 있고 박스는 그리퍼 끝에 있는데, 병이 그리퍼에 들려 가려졌을 수 있어 맞는지 판단 불가. det 예시에서는 접시 위 병에 정확히 붙음."
+ },
+ {
+  "unit": "task/brainco/PickTissues/ep00006_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "초근접·흐린 화면 구석(식별 불가)",
+  "notes": "추적 구간은 화면이 그리퍼와 근접 블러로 거의 다 덮여 박스 아래가 무엇인지 알 수 없고, det 예시도 박스가 그리퍼 손가락 주변이라 티슈가 손에 들려 있는지 확실치 않음."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00070_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 그리퍼 위(접시 왼쪽)",
+  "notes": "그리퍼가 충전기를 쥐고 옮기는 순간으로 보이나 손에 가려 실물 확인 불가, det예시(f219)는 접시 위 충전기에 정확히 박스."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00070_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 그리퍼(손) 위",
+  "notes": "추적구간 두 컷 모두 박스가 파란 손 위에 있고 충전기 실물은 가려서 안 보임, det예시는 접시 위 충전기에 정확."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00163_cam_left_high",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꼬리: 접시 위 충전기(정확) / 추적구간: 로봇 손 위",
+  "notes": "꼬리 두 컷 모두 충전기가 접시 위에 그대로 있어 자르면 안 되는 프레임."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00163_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 손끝과 접시 사이(흰 테이블)",
+  "notes": "박스 자리가 손끝 옆 흰 테이블이라 흰 충전기가 거기 있는지 육안으로 구분이 안 됨."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00188_cam_left_high",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시 위 충전기(정확)",
+  "notes": "꼬리가 2프레임뿐이고 그동안에도 충전기가 접시 위에 그대로 있음."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00188_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "초반·중간 모두 접시가 비어 있고 충전기가 화면에 안 보임(손에 쥐어 가려졌을 가능성 있음)."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00189_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 오른손 손끝 부근",
+  "notes": "납작한 박스가 오른손 손끝에 붙어 있어 쥔 충전기로 보이나 실물은 가려짐, det예시는 접시 위 충전기에 정확."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00189_cam_right_high",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꼬리: 접시 위 충전기(정확) / 추적구간: 로봇 오른손 손끝",
+  "notes": "꼬리 두 컷 모두 충전기가 접시 위에 그대로 있어 자르면 안 되는 프레임."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00006_cam_right_high",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꼬리끝: 오른 손목 옆 빈 테이블 (실물 충전기는 접시 위)",
+  "notes": "추적구간1(f158)에서는 박스 아래에 실물이 있어 보이지만 f189·꼬리끝(f219)에서는 박스가 빈 테이블에 남고 실물은 접시 위에 있음; 꼬리중간(f172)은 손에 쥔 실물인지 애매함."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00006_cam_right_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "det예시에서 오른손이 쥔 물체 위 (충전기로 보임)",
+  "notes": "판정 대상 스틸(꼬리·추적·초반)이 없고 det예시 1장뿐임."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00026_cam_left_high",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 왼팔 위 (꼬리끝 실물은 접시 위)",
+  "notes": "마지막 det 이후 박스가 계속 왼팔에 붙어 다니고, 꼬리끝(f219)에는 실물이 접시 위에 있는데 박스는 팔에 남아 있음."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00026_cam_left_wrist",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "손목 카메라에 항상 보이는 로봇 부위(파란 덩어리) 위",
+  "notes": "추적구간(f093)부터 꼬리끝까지 박스가 같은 로봇 부위에 고정돼 있어 det 프레임(f188~190)도 오검출로 의심됨."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00026_cam_right_high",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 왼팔 위 (꼬리끝 실물은 접시 위)",
+  "notes": "같은 에피소드의 왼쪽 high 캠과 같은 양상으로, 박스가 왼팔에 붙어 다니고 실물은 마지막에 접시 위에 있음."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00026_cam_right_wrist",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간1: 빈 흰 면, 추적구간2: 배경에 앉은 사람, 꼬리: 빈 테이블 면",
+  "notes": "추적 박스가 배경의 사람 위까지 흘러가고, det 프레임(f199~201)은 접시 위 충전기를 정확히 잡음."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00028_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "초반·중간 모두 접시가 비어 있고 테이블에 충전기가 안 보임; 로봇 몸통에 가린 아래쪽만 확인 불가."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00028_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "화면 맨 아래 가장자리에 잘린 영역 (무엇 위인지 확인 불가)",
+  "notes": "추적구간 박스 두 장 모두 화면 아래 끝에 걸려 내용 확인이 안 되고, det예시(f219)는 손 옆의 흰-파란 물체를 잡아 실물 검출로 보임."
+ },
+ {
+  "unit": "task/brainco/PickTissues/ep00006_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 오른손·팔 부근(실물 팩은 팔에 가려 안 보임)",
+  "notes": "추적구간 두 장 모두 박스가 오른팔 위에 있고 팩은 팔에 가려진 것으로 보임. det예시는 접시 위 실물 팩에 정확."
+ },
+ {
+  "unit": "task/brainco/PickTissues/ep00006_cam_right_wrist",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시 아래쪽 빈 테이블·화면 가장자리(실물 안 보임)",
+  "notes": "마지막 det까지는 실물 팩 위에 정확. 이후 팩이 화면 밖으로 나갔는데 박스만 화면 가장자리에 남음."
+ },
+ {
+  "unit": "task/brainco/PickTissues/ep00026_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "어두운 배경 위(흐림이 심해 실물 확인 불가)",
+  "notes": "화면이 심하게 흔들리고 어두워서 박스 자리에 팩이 있는지 판단 불가."
+ },
+ {
+  "unit": "task/brainco/PickTissues/ep00026_cam_right_wrist",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "선반 옆 실물 팩 위(꼬리·det는 정확), 추적구간은 어두운 구석",
+  "notes": "꼬리 1프레임은 실물 팩 위라 자르면 유효 프레임이 빠짐. 추적구간 두 장은 어두운 구석이라 실물 여부 확인 불가."
+ },
+ {
+  "unit": "task/brainco/PickTissues/ep00028_cam_left_wrist",
+  "tail_ghost": "unclear",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "파란 마스크로 덮인 둥근 물체 위(팩인지 로봇 팔인지 구분 불가)",
+  "notes": "모든 스틸에서 박스 자리가 파란 로봇 팔 마스크로 덮여 있어 실물 확인 불가. det 프레임도 같은 자리라 위치는 일관됨."
+ },
+ {
+  "unit": "task/brainco/PickTissues/ep00028_cam_right_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "가려진 파란 화면 위(아무것도 없음); det예시는 실물 팩 위 정확",
+  "notes": "추적구간 두 장 모두 카메라가 막혀 화면 전체가 파란 블러이고 박스만 떠 있음."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00006_cam_left_wrist",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "치약 상자 위(대체로 정확)",
+  "notes": "꼬리끝과 추적구간2에서 박스 자리에 실물 치약 상자가 보임(검출기가 놓친 것). 어두운 두 장(f162, f171)은 확인 불가. 꼬리를 자르면 실물 프레임이 빠질 수 있음."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00006_cam_right_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "초반·중간 두 장 모두 초록 치약 상자가 화면에 안 보임. 미검출이 맞음."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00028_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음(대상 미검출 유닛)",
+  "notes": "초반·중간 모두 테이블에는 접시만 있고 충전기는 보이지 않음."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00028_cam_right_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음(대상 미검출 유닛)",
+  "notes": "손목 카메라 근접 화면에 충전기는 안 보이고, 먼 배경의 작은 상자들은 충전기로 식별되지 않음."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00035_cam_left_high",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꼬리는 접시 위 충전기(정확), 추적구간은 오른손 옆 빈 테이블",
+  "notes": "추적구간(f98·f147) 박스는 오른손 근처 빈 자리에 있고 실물은 손에 가려 화면에 안 보임."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00035_cam_right_high",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 오른팔·오른손 위(실제 충전기는 접시 위에 보임)",
+  "notes": "마지막 det부터 꼬리까지 박스가 오른팔 위에 붙어 있고, 같은 시점 접시 위에 실물 충전기가 따로 보임."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00057_cam_left_high",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꼬리는 접시 위 실물(정확), 추적구간은 오른손·빈 테이블",
+  "notes": "추적구간(f32는 오른손 위, f44는 빈 테이블)에서 실물은 손에 가려 안 보임."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00057_cam_right_high",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시 위·손 옆의 충전기 실물 위(정확)",
+  "notes": "추적구간에도 실물이 보이고 박스가 실물을 잘 따라감."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00062_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "왼손 끝의 충전기 위(대체로 정확), det예시는 접시 위 충전기",
+  "notes": "f138은 실물이 움직여 흐릿하지만 박스는 왼손 끝 실물 부근을 따라감."
+ },
+ {
+  "unit": "task/brainco/PickCharger/ep00062_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "왼손 끝의 충전기 위(대체로 정확), det예시는 접시 위 충전기",
+  "notes": "f143은 박스가 왼손에 걸쳐 있고 실물은 흐릿하게 보임."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00026_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적 컷엔 초록 박스 없음; det예시는 접시 위 치약(정확)",
+  "notes": "추적구간 두 컷 모두 초록 박스가 화면에 안 그려져 있고, 접시는 비어 보이며 치약은 팔에 가렸는지 확인 불가."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00026_cam_left_wrist",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "치약 튜브 위(정확)",
+  "notes": "꼬리중간·꼬리끝에도 치약이 화면 하단에 그대로 보이고 박스가 그 위에 있어 잘라내면 안 됨."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00026_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "빈 테이블(오른손 옆)과 화면 오른쪽 가장자리",
+  "notes": "추적 두 컷 모두 치약 실물이 안 보이고(그리퍼가 잡아 가렸을 가능성) 박스는 빈 자리에 떠 있음."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00026_cam_right_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "손목 카메라가 로봇 손과 어두운 방 쪽만 비춰 치약이 화면에 없음."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00028_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시 뒤 빈 테이블",
+  "notes": "추적 박스가 접시 위가 아니라 접시 뒤 빈 자리에 있고, 실물은 그리퍼에 가려 확인 불가; det예시는 정확."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00028_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스 없음",
+  "notes": "멀리 흐릿한 배경 물건만 보이고 치약은 두 컷 모두 화면에 없음."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00028_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "왼쪽 그리퍼가 잡은 치약 부근(대체로 정확)",
+  "notes": "그리퍼 손끝에 치약 일부가 보이고 박스가 그 위치에 있어 놓친 검출로 보임."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00028_cam_right_wrist",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "화면 왼쪽 아래 가장자리(대상이 프레임 밖으로 나간 방향)",
+  "notes": "카메라가 돌아가 박스가 가장자리에 눌려 그려짐; 꼬리끝에는 치약이 화면 아래에 다시 보여 ghost 아님."
+ },
+ {
+  "unit": "task/he/Articulated/ep00286_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노트북 위(정확)",
+  "notes": "det예시에서 초록 박스가 닫힌 노트북에 정확히 맞음. 파란 그리퍼 박스가 노트북 오른쪽에 일부 겹치지만 대상 박스 문제는 아님."
+ },
+ {
+  "unit": "task/he/Articulated/ep00287_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노트북 위(정확)",
+  "notes": "det예시에서 초록 박스가 노트북에 정확히 맞음. 특이사항 없음."
+ },
+ {
+  "unit": "task/he/Articulated/ep00288_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노트북 위(정확)",
+  "notes": "추적구간에서도 초록 박스가 화면에 잘 보이는 노트북 위에 정확히 있음. 다만 파란 '오른쪽 로봇 팔' 박스가 노트북 위에 잘못 겹쳐 그려짐."
+ },
+ {
+  "unit": "task/he/Articulated/ep00295_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노트북 위(정확)",
+  "notes": "추적구간 두 컷 모두 노트북이 잘 보이고 초록 박스도 그 위에 정확히 있음. 파란 '오른쪽 로봇 팔' 박스가 노트북 위에 잘못 겹쳐 그려짐."
+ },
+ {
+  "unit": "task/he/Articulated/ep00297_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노트북 위(정확)",
+  "notes": "det예시에서 초록 박스가 노트북에 정확히 맞음. 특이사항 없음."
+ },
+ {
+  "unit": "task/he/Articulated/ep00307_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노트북 위(정확)",
+  "notes": "초록 박스는 노트북에 정확히 맞음. 파란 그리퍼 박스가 노트북 전체를 덮어 파랗게 칠해진 점이 특이함."
+ },
+ {
+  "unit": "task/he/Basic/ep03803_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간1은 그리퍼에 들린 장난감(흰색으로 보임) 근처, 추적구간2는 로봇 팔 위, det예시는 접시 위 장난감(정확)",
+  "notes": "장난감이 이 카메라에서 분홍이 아니라 흰색처럼 보이고 움직임 블러가 심함. 추적구간2에서 박스가 로봇 팔 위로 밀려나 있음."
+ },
+ {
+  "unit": "task/he/Basic/ep03811_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간1은 로봇 팔 옆 그림자 진 테이블, 추적구간2는 로봇 팔 위, det예시는 접시 위 장난감(정확)",
+  "notes": "추적구간에서 박스가 로봇 팔과 빈 테이블 위에 있음. 그리퍼 근처의 흰 물체가 장난감일 수 있으나 블러가 심해 확신할 수 없음."
+ },
+ {
+  "unit": "task/he/Basic/ep03813_egocentric",
+  "unit_note_field_check": null,
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적1은 장난감 실물 위(정확), 추적2는 로봇 팔 위(팔에 가린 것으로 보임)",
+  "notes": "추적1에서는 박스 안에 장난감이 실제로 보이고, 추적2는 로봇 팔이 그 자리를 완전히 덮고 있어 실물 확인이 안 됨."
+ },
+ {
+  "unit": "task/he/Basic/ep03828_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적1은 로봇 팔·손 부근, 추적2는 화면 위쪽 빈 배경",
+  "notes": "추적 스틸 두 장 모두 장난감 실물이 뚜렷이 안 보이고, 추적1의 살색 둥근 것은 손인지 장난감인지 구분이 안 됨."
+ },
+ {
+  "unit": "task/he/Basic/ep03869_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "두 스틸 모두 로봇 팔 위(장난감 안 보임)",
+  "notes": "추적1의 박스는 납작하게 찌그러져 팔 가장자리에 걸쳐 있고, 두 장 모두 장난감 실물은 화면에서 안 보임(집게에 가렸을 가능성 있음)."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00163_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "그리퍼에 잡힌 치약 위(정확)",
+  "notes": "추적구간 두 장 모두 왼쪽 그리퍼가 잡은 청록색 치약 위에 박스가 있고, det예시도 접시 위 치약을 정확히 잡음."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00163_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "왼쪽 그리퍼 위(치약은 그리퍼에 가려 안 보임)",
+  "notes": "이 카메라에서는 박스 안에 그리퍼만 보이지만, 같은 에피소드 왼쪽 카메라에서는 그 그리퍼가 치약을 잡고 있어 가림일 가능성이 큼."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00188_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "왼쪽 그리퍼 끝부분(치약 안 보임)",
+  "notes": "추적 박스가 아주 작게(3x3x6cm) 그리퍼 끝에 붙어 있고 치약 실물은 화면 어디에도 안 보임(그리퍼에 가려진 듯). det예시는 접시 위 치약을 정확히 잡음."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00188_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간1은 그리퍼 끝, 추적구간2는 화면 왼쪽 끝 빈 곳",
+  "notes": "추적구간2(f0178)에서 박스가 화면 왼쪽 가장자리 빈 테이블 쪽으로 밀려나 있고 치약 실물은 화면에 안 보임."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00189_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "화면 오른쪽 가장자리(거의 화면 밖) 빈 곳",
+  "notes": "치약 실물은 오른쪽 그리퍼에 잡혀 화면에 보이는데, 추적 박스는 오른쪽 끝으로 벗어나 실물과 완전히 떨어져 있음."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00189_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "오른쪽 그리퍼에 잡힌 치약 위(정확)",
+  "notes": "추적구간 두 장 모두 그리퍼 끝의 청록색 치약이 박스 안에 정확히 들어 있음. 같은 에피소드 왼쪽 카메라와 달리 추적이 잘 붙어 있음."
+ },
+ {
+  "unit": "task/he/Articulated/ep00281_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노트북 위(정확)",
+  "notes": "det예시에서 초록 박스가 테이블 위 닫힌 노트북에 잘 맞음."
+ },
+ {
+  "unit": "task/he/Articulated/ep00285_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노트북 위(정확)",
+  "notes": "det예시에서 초록 박스가 테이블 위 닫힌 노트북에 잘 맞음."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00035_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시와 빈 테이블을 가로지르는 과대 박스(치약 실물은 왼쪽 그리퍼에 물려 박스 왼쪽 끝에 걸침)",
+  "notes": "추적 박스가 실물보다 훨씬 크게 부풀어 대부분 빈 테이블·접시를 덮고, 실물 치약은 왼쪽 그리퍼에 물린 채 일부만 보임."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00035_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "접시 위 치약(정확)",
+  "notes": "det예시 스틸만 있고 검출 프레임은 정상."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00057_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "왼쪽 로봇 팔·그리퍼 위(치약 실물 안 보임)",
+  "notes": "두 추적 스틸 모두 박스가 왼쪽 그리퍼 부근인데 치약이 안 보임 — 그리퍼에 잡혀 가려졌을 가능성이 있어 wrong 단정은 못 함. det예시는 접시 위 치약에 정확."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00057_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "unclear",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "왼쪽 그리퍼 옆·팔 위(실물 불분명)",
+  "notes": "f87 박스 안에 흐릿한 질감이 보이지만 치약인지 확실치 않고, f93은 팔 위라 실물 확인 불가. det예시는 접시 위 치약에 정확."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00062_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "f158: 빈 테이블 안쪽 가장자리(아주 작은 박스) / f172: 화면 오른쪽 끝 밖",
+  "notes": "추적 박스가 아주 작아지거나 화면 밖으로 밀려났고 치약 실물은 화면에 안 보임. det예시는 접시 위 치약에 정확."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00062_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "f65: 오른팔 옆 청록 물체(치약으로 보임) 위 / f85: 화면 오른쪽 가장자리 밖",
+  "notes": "두 스틸 판정이 갈림 — f65는 실물로 보이는 청록 튜브 위라 대체로 정상, f85는 박스가 화면 밖으로 나가 실물 없음."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00070_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "빈 테이블 안쪽 가장자리",
+  "notes": "박스 안은 맨 테이블뿐이고 치약은 화면에 안 보임(오른팔이 화면 밖 오른쪽으로 뻗는 중이라 실물은 화면 밖에 있는 듯). det예시는 접시 위 치약에 정확."
+ },
+ {
+  "unit": "task/brainco/PickToothpaste/ep00070_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "화면 오른쪽 가장자리 밖(테이블 위엔 흐릿한 라벨 글자만)",
+  "notes": "두 추적 스틸 모두 박스 모서리만 화면 오른쪽 끝에 걸려 있고 그 자리 테이블은 비어 있음. det예시는 접시 위 치약에 정확."
+ },
+ {
+  "unit": "task/he/Locomanip/ep07128_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노란 바구니 안에 서 있는 물병 위",
+  "notes": "물병에 초록 박스가 잘 맞고, 파랑 팔 박스도 화면 왼쪽 아래 실제 로봇 팔 위에 있다."
+ },
+ {
+  "unit": "task/he/Locomanip/ep07134_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "바구니 안 물병 위",
+  "notes": "초록 박스는 물병에 맞지만, 물병이 파랑(로봇 팔) 색으로 칠해져 있고 큰 파랑 박스가 바구니 전체를 덮고 있다."
+ },
+ {
+  "unit": "task/he/Locomanip/ep07135_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노란 바구니 안 물병 위",
+  "notes": "초록 박스가 물병보다 조금 크지만 물병을 잘 감싸고, 왼쪽 파랑 박스는 빈 책상 위에 떠 있다."
+ },
+ {
+  "unit": "task/he/Locomanip/ep07137_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노란 바구니 안 물병 위",
+  "notes": "초록 박스가 오른쪽으로 살짝 밀렸지만 물병을 담고 있고, 왼쪽 파랑 팔 박스는 빈 책상 위에 있다."
+ },
+ {
+  "unit": "task/he/Locomanip/ep07147_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "노란 바구니 안 물병 위",
+  "notes": "초록 박스는 물병에 잘 맞지만 왼쪽 파랑 팔 박스는 아무것도 없는 책상 위에 크게 그려져 있다."
+ },
+ {
+  "unit": "task/he/Locomanip/ep07158_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "바구니 안 물병 위",
+  "notes": "초록 박스가 물병을 담고 있으나 위쪽으로 많이 길게 늘어났고, 왼쪽 파랑 팔 박스는 빈 책상 위에 있다."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00062_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간 두 장 모두 오른쪽 그리퍼 옆 빈 탁자 위, det 스틸에서는 빈 접시 위",
+  "notes": "사과가 화면 어디에도 안 보이는데 초록 사과 박스가 계속 그려져 있고, 추적구간에서는 박스가 아주 납작하게 찌그러져 있다."
+ },
+ {
+  "unit": "task/he/HRI/ep05604_egocentric",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "사람이 들고 있는 장미의 초록 잎 부분",
+  "notes": "꼬리 스틸에서도 잎이 실제로 보이고, 빨간 꽃봉오리는 박스 위쪽 바깥에 있어 잎만 잡혀 있다."
+ },
+ {
+  "unit": "task/he/HRI/ep05605_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "사람이 들고 있는 장미의 초록 잎 부분",
+  "notes": "det 스틸 한 장뿐이며 박스는 잎 위에 잘 얹혀 있고 꽃은 화면 위로 잘려 있다."
+ },
+ {
+  "unit": "task/he/Locomanip/ep07121_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "바구니 안에 있는 병으로 보이는 물체",
+  "notes": "det 스틸 한 장뿐이고 박스 위치는 맞아 보이지만 그 물체가 로봇 팔 색(파랑)으로 칠해져 있다."
+ },
+ {
+  "unit": "task/he/Locomanip/ep07125_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "추적구간에서는 화면 오른쪽 아래 구석의 빈 바닥, det 스틸에서는 바구니 안 병으로 보이는 물체",
+  "notes": "로봇이 걸어가는 구간이라 병이 화면에 없는데 박스가 오른쪽 아래 구석에 아주 작게 뭉쳐 있다."
+ },
+ {
+  "unit": "task/he/Locomanip/ep07127_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "로봇 왼손에 들린 연두색 병",
+  "notes": "병은 화면 왼쪽 아래에 실제로 보이고 박스도 그 위에 있지만 크기가 1x1x2cm로 찌그러져 있다."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00026_cam_right_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "화면 오른쪽 끝의 어두운 반사면(조명 빛이 비친 검은 면) 위, 사과 실물은 없음",
+  "notes": "마지막 프레임(det예시)에서는 초록 박스가 두 개인데 하나만 진짜 사과 위에 있고 다른 하나는 어두운 면 위에 있다."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00028_cam_left_wrist",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "yes",
+  "box_on_what": "박스가 하나도 그려지지 않음",
+  "notes": "두 장 모두 로봇 손과 흰 벽·복도만 보이고 사과는 화면에 없다."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00028_cam_right_wrist",
+  "tail_ghost": "yes",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "넓고 평평한 연두색 상판(물건이 올려진 테이블 면) 위",
+  "notes": "마지막 검출 프레임까지는 박스가 초록 사과 위에 맞게 있다가 이후 박스가 커지면서 연두색 테이블 면을 덮는다."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00035_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "왼손 그리퍼 끝에 있는 작은 노란빛 사과 위",
+  "notes": "접시는 비어 있고 사과는 손끝에 있는데 박스가 그 위치를 대체로 맞게 따라간다."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00035_cam_right_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "왼손 그리퍼 끝부분(사과는 손에 가려 거의 안 보임)",
+  "notes": "박스 위치는 손끝이라 그럴듯하지만 사과 자체가 보이지 않아 확인이 어렵다."
+ },
+ {
+  "unit": "task/brainco/PickApple/ep00062_cam_left_high",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "no",
+  "object_visible_when_missed": "unclear",
+  "target_absent_confirmed": "none",
+  "box_on_what": "오른손 그리퍼 끝부분(사과는 손에 가려 안 보임)",
+  "notes": "두 추적 프레임에서 접시는 비어 있고 박스는 손끝을 따라가지만, det예시에서는 비어 보이는 접시 위에 사과 박스가 그려져 있다."
+ },
+ {
+  "unit": "task/he/Precision/ep07924_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "화면 왼쪽 위, 로봇 팔과 그 위 어두운 벽 띠 위 (장미 실물은 그 자리에 없음)",
+  "notes": "카메라가 테이블에 아주 가까워 장미가 화면 밖이고, 파란 로봇 마스크가 노란 꽃병까지 덮고 있다."
+ },
+ {
+  "unit": "task/he/Precision/ep07925_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "화면 위쪽 어두운 벽 띠와 로봇 팔 가장자리 위 (장미 실물 없음)",
+  "notes": "두 프레임 모두 장미가 화면에 안 보이는데 박스만 위쪽 벽에 떠 있고, 파란 로봇 마스크가 꽃병까지 덮었다."
+ },
+ {
+  "unit": "task/he/Precision/ep07926_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "yes",
+  "target_absent_confirmed": "none",
+  "box_on_what": "화면 위쪽 벽 위. 실제 초록 잎은 f83에서는 박스 바로 오른쪽, f86에서는 훨씬 오른쪽에 있다",
+  "notes": "잎이 화면 위쪽 끝에 조금 보이는데 박스가 왼쪽으로 처져서 f86에서는 완전히 빗나갔다."
+ },
+ {
+  "unit": "task/he/Precision/ep07932_egocentric",
+  "tail_ghost": "no",
+  "empty_or_wrong_box": "none",
+  "object_visible_when_missed": "none",
+  "target_absent_confirmed": "none",
+  "box_on_what": "꽃병에 꽂힌 실제 초록 잎 위",
+  "notes": "마지막 검출 이후 두 프레임에서도 초록 마스크가 잎 모양을 그대로 따라가 잘 붙어 있다."
+ },
+ {
+  "unit": "task/he/Precision/ep07933_egocentric",
+  "tail_ghost": "none",
+  "empty_or_wrong_box": "yes",
+  "object_visible_when_missed": "no",
+  "target_absent_confirmed": "none",
+  "box_on_what": "화면 위쪽 빈 벽 위 (장미 실물 없음)",
+  "notes": "검출 프레임(f197)에서도 박스가 잎이 아니라 오른쪽 위 빈 벽에 놓여 있어 검출 위치 자체가 틀렸다."
+ }
+]

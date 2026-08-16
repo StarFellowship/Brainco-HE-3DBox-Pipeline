@@ -1,0 +1,43 @@
+{
+ "prompt": "oreo snack package . plate . robot hand . robot arm . gripper . human hand .",
+ "n_frames": 220,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "oreo": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 175,
+   "rejected": 45,
+   "coverage": 0.795,
+   "coasting_frames": 18,
+   "coverage_B": 0.877,
+   "occluded_frames": 115,
+   "n_history": 7,
+   "size_median": [
+    0.1538,
+    0.0638,
+    0.0694
+   ],
+   "coverage_det": 0.686,
+   "evidence_ratio": 0.863,
+   "reliability": "양호"
+  },
+  "plate": {
+   "is_target": false,
+   "confirmed": true,
+   "accepted": 46,
+   "rejected": 174,
+   "coverage": 0.209,
+   "coasting_frames": 0,
+   "coverage_B": 0.209,
+   "occluded_frames": 28,
+   "n_history": 3,
+   "size_median": [
+    0.2777,
+    0.0678,
+    0.0985
+   ]
+  }
+ }
+}

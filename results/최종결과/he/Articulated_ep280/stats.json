@@ -1,0 +1,27 @@
+{
+ "prompt": "laptop . notebook computer . robot hand . robot arm . gripper . human hand .",
+ "n_frames": 69,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "laptop": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 68,
+   "rejected": 1,
+   "coverage": 0.986,
+   "coasting_frames": 0,
+   "coverage_B": 0.986,
+   "occluded_frames": 1,
+   "n_history": 30,
+   "size_median": [
+    0.4695,
+    0.1928,
+    0.257
+   ],
+   "coverage_det": 0.957,
+   "evidence_ratio": 0.971,
+   "reliability": "양호"
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "prompt": "towel . cloth . fabric on desk .",
+ "n_frames": 126,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "towel": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 125,
+   "rejected": 1,
+   "coverage": 0.992,
+   "coasting_frames": 1,
+   "coverage_B": 1.0,
+   "occluded_frames": 2,
+   "n_history": 30,
+   "size_median": [
+    0.3451,
+    0.2999,
+    0.255
+   ],
+   "coverage_det": 0.992,
+   "evidence_ratio": 1.0,
+   "reliability": "양호"
+  }
+ }
+}

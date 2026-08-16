@@ -1,0 +1,161 @@
+{
+ "Articulated/ep120": {
+  "task": "click_a_button_on_the_mouse",
+  "prompt": "black computer mouse . desk .",
+  "resolution": [
+   640,
+   480
+  ],
+  "n_frames": 16,
+  "stats": {
+   "mouse": {
+    "coverage": 1.0,
+    "coverage_B": 1.0,
+    "accepted": 16,
+    "size_median": [
+     0.09,
+     0.0988,
+     0.0835
+    ],
+    "is_target": true
+   },
+   "desk": {
+    "coverage": 0.0,
+    "coverage_B": 0.0,
+    "accepted": 0,
+    "size_median": null,
+    "is_target": false
+   }
+  }
+ },
+ "Basic/ep2680": {
+  "task": "pick_a_web_cam_and_place_it_in_a_container",
+  "prompt": "webcam . container box .",
+  "resolution": [
+   640,
+   480
+  ],
+  "n_frames": 18,
+  "stats": {
+   "webcam": {
+    "coverage": 0.0,
+    "coverage_B": 0.0,
+    "accepted": 0,
+    "size_median": null,
+    "is_target": true
+   },
+   "container": {
+    "coverage": 1.0,
+    "coverage_B": 1.0,
+    "accepted": 18,
+    "size_median": [
+     0.4457,
+     0.4244,
+     0.383
+    ],
+    "is_target": false
+   }
+  }
+ },
+ "Basic/ep1960": {
+  "task": "lift_a_kettle_from_base",
+  "prompt": "kettle . base .",
+  "resolution": [
+   640,
+   480
+  ],
+  "n_frames": 22,
+  "stats": {
+   "kettle": {
+    "coverage": 1.0,
+    "coverage_B": 1.0,
+    "accepted": 22,
+    "size_median": [
+     0.4118,
+     0.4235,
+     0.499
+    ],
+    "is_target": true
+   },
+   "base": {
+    "coverage": 0.0,
+    "coverage_B": 0.0,
+    "accepted": 0,
+    "size_median": null,
+    "is_target": false
+   }
+  }
+ },
+ "Precision/ep7998": {
+  "task": "place_a_soldering_gun_into_its_base_h1",
+  "prompt": "soldering gun . base .",
+  "resolution": [
+   640,
+   480
+  ],
+  "n_frames": 28,
+  "stats": {
+   "soldering gun": {
+    "coverage": 0.0,
+    "coverage_B": 0.0,
+    "accepted": 0,
+    "size_median": null,
+    "is_target": true
+   },
+   "base": {
+    "coverage": 0.0,
+    "coverage_B": 0.0,
+    "accepted": 0,
+    "size_median": null,
+    "is_target": false
+   }
+  }
+ },
+ "Tool_use/ep8398": {
+  "task": "pick_the_hammer_and_hit_desk",
+  "prompt": "hammer . desk .",
+  "resolution": [
+   640,
+   480
+  ],
+  "n_frames": 22,
+  "stats": {
+   "hammer": {
+    "coverage": 0.0,
+    "coverage_B": 0.0,
+    "accepted": 0,
+    "size_median": null,
+    "is_target": true
+   },
+   "desk": {
+    "coverage": 0.0,
+    "coverage_B": 0.0,
+    "accepted": 0,
+    "size_median": null,
+    "is_target": false
+   }
+  }
+ },
+ "deformable/ep4718": {
+  "task": "fold_a_jacket_on_the_desk",
+  "prompt": "black jacket . cloth on desk .",
+  "resolution": [
+   640,
+   480
+  ],
+  "n_frames": 21,
+  "stats": {
+   "jacket": {
+    "coverage": 0.429,
+    "coverage_B": 0.429,
+    "accepted": 9,
+    "size_median": [
+     0.6269,
+     0.3105,
+     0.204
+    ],
+    "is_target": true
+   }
+  }
+ }
+}

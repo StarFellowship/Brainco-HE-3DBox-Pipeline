@@ -1,0 +1,43 @@
+{
+ "prompt": "toothpaste tube . plate . robot hand . robot arm . gripper . human hand .",
+ "n_frames": 194,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "toothpaste": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 129,
+   "rejected": 65,
+   "coverage": 0.665,
+   "coasting_frames": 43,
+   "coverage_B": 0.887,
+   "occluded_frames": 101,
+   "n_history": 11,
+   "size_median": [
+    0.15,
+    0.0774,
+    0.053
+   ],
+   "coverage_det": 0.402,
+   "evidence_ratio": 0.605,
+   "reliability": "양호"
+  },
+  "plate": {
+   "is_target": false,
+   "confirmed": true,
+   "accepted": 65,
+   "rejected": 129,
+   "coverage": 0.335,
+   "coasting_frames": 1,
+   "coverage_B": 0.34,
+   "occluded_frames": 18,
+   "n_history": 1,
+   "size_median": [
+    0.5524,
+    0.1484,
+    0.1581
+   ]
+  }
+ }
+}

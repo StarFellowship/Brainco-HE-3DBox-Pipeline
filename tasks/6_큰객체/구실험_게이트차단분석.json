@@ -1,0 +1,79 @@
+{
+ "Brainco/GraspOreo/default": {
+  "n_frames": 20,
+  "stats": {
+   "table": {
+    "coverage": 0.0,
+    "coverage_B": 0.0,
+    "accepted": 0,
+    "size_median": null,
+    "is_target": true
+   }
+  },
+  "reject_reasons": {
+   "area": 20
+  },
+  "size_median_raw": null,
+  "det_score_median": null
+ },
+ "Brainco/GraspOreo/bigobj_profile": {
+  "n_frames": 20,
+  "stats": {
+   "table": {
+    "coverage": 0.0,
+    "coverage_B": 0.0,
+    "accepted": 0,
+    "size_median": null,
+    "is_target": true
+   }
+  },
+  "reject_reasons": {
+   "absmax>0.8": 20
+  },
+  "size_median_raw": null,
+  "det_score_median": 0.5395000000000001
+ },
+ "HE/Basic/default": {
+  "n_frames": 16,
+  "stats": {
+   "table": {
+    "coverage": 0.0,
+    "coverage_B": 0.0,
+    "accepted": 0,
+    "size_median": null,
+    "is_target": true
+   }
+  },
+  "reject_reasons": {
+   "area": 15,
+   "no_candidate": 1
+  },
+  "size_median_raw": null,
+  "det_score_median": null
+ },
+ "HE/Basic/bigobj_profile": {
+  "n_frames": 16,
+  "stats": {
+   "table": {
+    "coverage": 0.125,
+    "coverage_B": 0.438,
+    "accepted": 2,
+    "size_median": [
+     0.5792,
+     0.3743,
+     0.219
+    ],
+    "is_target": true
+   }
+  },
+  "reject_reasons": {
+   "absmax>0.8": 14
+  },
+  "size_median_raw": [
+   0.619415885695199,
+   0.4813774201829911,
+   0.33949999999999997
+  ],
+  "det_score_median": 0.5025
+ }
+}

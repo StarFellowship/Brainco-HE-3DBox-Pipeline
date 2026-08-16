@@ -1,0 +1,43 @@
+{
+ "prompt": "white charger . power adapter . plate . robot hand . robot arm . gripper . human hand .",
+ "n_frames": 220,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "charger": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 164,
+   "rejected": 56,
+   "coverage": 0.745,
+   "coasting_frames": 45,
+   "coverage_B": 0.95,
+   "occluded_frames": 162,
+   "n_history": 19,
+   "size_median": [
+    0.06,
+    0.05,
+    0.02
+   ],
+   "coverage_det": 0.223,
+   "evidence_ratio": 0.299,
+   "reliability": "주의"
+  },
+  "plate": {
+   "is_target": false,
+   "confirmed": true,
+   "accepted": 220,
+   "rejected": 0,
+   "coverage": 1.0,
+   "coasting_frames": 0,
+   "coverage_B": 1.0,
+   "occluded_frames": 202,
+   "n_history": 18,
+   "size_median": [
+    0.1668,
+    0.1065,
+    0.0662
+   ]
+  }
+ }
+}

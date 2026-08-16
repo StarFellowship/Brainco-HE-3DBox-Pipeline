@@ -1,0 +1,122 @@
+{
+ "Brainco/GraspOreo/head/p0": {
+  "prompt": "robot hand . robot arm . gripper . human hand .",
+  "n_frames": 20,
+  "detections_per_frame": 4.15,
+  "phrase_counts": {
+   "robot arm": 37,
+   "human hand": 22,
+   "robot hand": 21,
+   "robot robot arm": 1,
+   "hand robot arm": 2
+  },
+  "score_median": 0.4906015694141388,
+  "area_ratio_median": 0.18963868916034698
+ },
+ "Brainco/GraspOreo/head/p1": {
+  "prompt": "robotic gripper . mechanical hand . robot manipulator .",
+  "n_frames": 20,
+  "detections_per_frame": 2.05,
+  "phrase_counts": {
+   "robotic gripper hand robot manipulator": 7,
+   "robotic gripper mechanical hand robot manipulator": 8,
+   "robotic gripper robot manipulator": 23,
+   "mechanical hand": 3
+  },
+  "score_median": 0.4291106164455414,
+  "area_ratio_median": 0.1963587999343872
+ },
+ "Brainco/GraspOreo/head/p2": {
+  "prompt": "black gripper finger . white robot arm .",
+  "n_frames": 20,
+  "detections_per_frame": 1.95,
+  "phrase_counts": {
+   "black gripper finger white robot arm": 19,
+   "white robot arm": 15,
+   "finger white robot arm": 3,
+   "grip finger white robot arm": 2
+  },
+  "score_median": 0.48853227496147156,
+  "area_ratio_median": 0.2005225569009781
+ },
+ "Brainco/GraspOreo/wrist/p0": {
+  "prompt": "robot hand . robot arm . gripper . human hand .",
+  "n_frames": 20,
+  "detections_per_frame": 0.45,
+  "phrase_counts": {
+   "robot arm": 4,
+   "human hand": 3,
+   "robot hand": 1,
+   "hand robot arm": 1
+  },
+  "score_median": 0.3629515767097473,
+  "area_ratio_median": 0.059215888381004333
+ },
+ "Brainco/GraspOreo/wrist/p1": {
+  "prompt": "robotic gripper . mechanical hand . robot manipulator .",
+  "n_frames": 20,
+  "detections_per_frame": 1.45,
+  "phrase_counts": {
+   "mechanical hand": 13,
+   "robotic gripper robot manipulator": 10,
+   "grip robot manipulator": 1,
+   "robot manipulator": 1,
+   "gripper robot manipulator": 1,
+   "robotic gripper robot mani": 1,
+   "robotic gripper": 2
+  },
+  "score_median": 0.4108183681964874,
+  "area_ratio_median": 0.462615042924881
+ },
+ "Brainco/GraspOreo/wrist/p2": {
+  "prompt": "black gripper finger . white robot arm .",
+  "n_frames": 20,
+  "detections_per_frame": 0.85,
+  "phrase_counts": {
+   "black gripper finger": 2,
+   "white robot arm": 7,
+   "gripper finger white robot arm": 1,
+   "black gripper finger white robot arm": 3,
+   "black gripper finger white": 2,
+   "grip finger white robot arm": 2
+  },
+  "score_median": 0.3837190866470337,
+  "area_ratio_median": 0.04368492215871811
+ },
+ "HE/Basic/p0": {
+  "prompt": "robot hand . robot arm . gripper . human hand .",
+  "n_frames": 16,
+  "detections_per_frame": 1.81,
+  "phrase_counts": {
+   "robot arm": 13,
+   "human hand": 10,
+   "robot hand robot arm": 3,
+   "robot hand": 3
+  },
+  "score_median": 0.4074617028236389,
+  "area_ratio_median": 0.06355298310518265
+ },
+ "HE/Basic/p1": {
+  "prompt": "robotic gripper . mechanical hand . robot manipulator .",
+  "n_frames": 16,
+  "detections_per_frame": 1.38,
+  "phrase_counts": {
+   "mechanical hand": 13,
+   "robotic gripper robot manipulator": 8,
+   "grip mechanical hand": 1
+  },
+  "score_median": 0.4882168769836426,
+  "area_ratio_median": 0.03851037099957466
+ },
+ "HE/Basic/p2": {
+  "prompt": "black gripper finger . white robot arm .",
+  "n_frames": 16,
+  "detections_per_frame": 2.0,
+  "phrase_counts": {
+   "white robot arm": 13,
+   "black gripper finger": 19
+  },
+  "score_median": 0.4158485233783722,
+  "area_ratio_median": 0.023788707330822945
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "T1_oreo_head": {
+  "unit": "brainco/GraspOreo_ep5/cam_left_high",
+  "label": "oreo",
+  "frame": 6,
+  "is_he": false,
+  "accepted": true,
+  "src": "det",
+  "det_score": 0.567,
+  "dmed": 0.742,
+  "size_cm": [
+   9.3,
+   5.7,
+   2.3
+  ],
+  "n_points_pipe": 1099,
+  "mask_px_pipe": 1598,
+  "depth_src": "UniDepthV2 추정",
+  "mask_px": 2110,
+  "components": 1,
+  "depth_median_m": 0.744,
+  "n_points": 2110,
+  "bev_wd_cm": [
+   12.6,
+   4.5
+  ],
+  "box_footprint_cm": [
+   9.3,
+   2.3
+  ]
+ },
+ "T2_laptop_he": {
+  "unit": "he/Articulated_ep280",
+  "label": "laptop",
+  "frame": 7,
+  "is_he": true,
+  "accepted": true,
+  "src": "det",
+  "det_score": 0.381,
+  "dmed": 0.607,
+  "size_cm": [
+   46.6,
+   22.8,
+   23.9
+  ],
+  "n_points_pipe": 60966,
+  "mask_px_pipe": 69652,
+  "depth_src": "HE 실측",
+  "mask_px": 72492,
+  "components": 9,
+  "depth_median_m": 0.617,
+  "n_points": 67489,
+  "bev_wd_cm": [
+   58.2,
+   160.6
+  ],
+  "box_footprint_cm": [
+   46.6,
+   23.9
+  ]
+ },
+ "T3_charger_head": {
+  "unit": "brainco/PickCharger_ep5/cam_left_high",
+  "label": "charger",
+  "frame": 109,
+  "is_he": false,
+  "accepted": false,
+  "src": "prop",
+  "det_score": 0.0,
+  "dmed": 0.926,
+  "size_cm": null,
+  "n_points_pipe": 685,
+  "mask_px_pipe": 1054,
+  "depth_src": "UniDepthV2 추정",
+  "mask_px": 1424,
+  "components": 1,
+  "depth_median_m": 0.923,
+  "n_points": 1424,
+  "bev_wd_cm": [
+   7.5,
+   10.9
+  ],
+  "box_footprint_cm": null
+ },
+ "T4_duster_he": {
+  "unit": "he/Tool_use_ep8198",
+  "label": "duster",
+  "frame": 32,
+  "is_he": true,
+  "accepted": true,
+  "src": "det",
+  "det_score": 0.379,
+  "dmed": 0.551,
+  "size_cm": [
+   33.2,
+   14.2,
+   10.8
+  ],
+  "n_points_pipe": 9613,
+  "mask_px_pipe": 10526,
+  "depth_src": "HE 실측",
+  "mask_px": 28395,
+  "components": 229,
+  "depth_median_m": 0.536,
+  "n_points": 26489,
+  "bev_wd_cm": [
+   41.8,
+   34.2
+  ],
+  "box_footprint_cm": [
+   33.2,
+   10.8
+  ]
+ },
+ "T5_cube_wrist": {
+  "unit": "brainco/GraspRubiksCube_ep5/cam_right_wrist",
+  "label": "rubiks cube",
+  "frame": 196,
+  "is_he": false,
+  "accepted": true,
+  "src": "det",
+  "det_score": 0.437,
+  "dmed": 0.682,
+  "size_cm": [
+   11.7,
+   16.8,
+   7.3
+  ],
+  "n_points_pipe": 22440,
+  "mask_px_pipe": 39299,
+  "depth_src": "UniDepthV2 추정",
+  "mask_px": 42268,
+  "components": 1,
+  "depth_median_m": 0.686,
+  "prev_frame": 195,
+  "prev_dmed": 0.184,
+  "n_points": 42268,
+  "bev_wd_cm": [
+   24.3,
+   42.7
+  ],
+  "box_footprint_cm": [
+   11.7,
+   7.3
+  ]
+ },
+ "T6_apple_head": {
+  "unit": "brainco/PickApple_ep5/cam_left_high",
+  "label": "apple",
+  "frame": 49,
+  "is_he": false,
+  "accepted": true,
+  "src": "det",
+  "det_score": 0.697,
+  "dmed": 0.779,
+  "size_cm": [
+   6.4,
+   5.4,
+   1.4
+  ],
+  "n_points_pipe": 830,
+  "mask_px_pipe": 1244,
+  "depth_src": "UniDepthV2 추정",
+  "mask_px": 1584,
+  "components": 1,
+  "depth_median_m": 0.781,
+  "n_points": 1584,
+  "bev_wd_cm": [
+   8.2,
+   4.9
+  ],
+  "box_footprint_cm": [
+   6.4,
+   1.4
+  ]
+ }
+}

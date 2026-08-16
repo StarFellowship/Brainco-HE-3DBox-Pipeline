@@ -1,0 +1,43 @@
+{
+ "prompt": "pack of wet wipes . plate .",
+ "n_frames": 220,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "tissue pack": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 220,
+   "rejected": 0,
+   "coverage": 1.0,
+   "coasting_frames": 0,
+   "coverage_B": 1.0,
+   "occluded_frames": 191,
+   "n_history": 22,
+   "size_median": [
+    0.1224,
+    0.0929,
+    0.0679
+   ],
+   "coverage_det": 0.791,
+   "evidence_ratio": 0.791,
+   "reliability": "양호"
+  },
+  "plate": {
+   "is_target": false,
+   "confirmed": true,
+   "accepted": 220,
+   "rejected": 0,
+   "coverage": 1.0,
+   "coasting_frames": 0,
+   "coverage_B": 1.0,
+   "occluded_frames": 140,
+   "n_history": 30,
+   "size_median": [
+    0.1653,
+    0.129,
+    0.1045
+   ]
+  }
+ }
+}

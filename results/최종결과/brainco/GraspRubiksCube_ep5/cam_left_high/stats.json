@@ -1,0 +1,43 @@
+{
+ "prompt": "rubiks cube . plate . robot hand . robot arm . gripper . human hand .",
+ "n_frames": 220,
+ "fps": 10.0,
+ "stride": 3,
+ "stats": {
+  "rubiks cube": {
+   "is_target": true,
+   "confirmed": true,
+   "accepted": 220,
+   "rejected": 0,
+   "coverage": 1.0,
+   "coasting_frames": 0,
+   "coverage_B": 1.0,
+   "occluded_frames": 184,
+   "n_history": 30,
+   "size_median": [
+    0.0722,
+    0.0726,
+    0.0272
+   ],
+   "coverage_det": 0.986,
+   "evidence_ratio": 0.986,
+   "reliability": "양호"
+  },
+  "plate": {
+   "is_target": false,
+   "confirmed": true,
+   "accepted": 220,
+   "rejected": 0,
+   "coverage": 1.0,
+   "coasting_frames": 0,
+   "coverage_B": 1.0,
+   "occluded_frames": 205,
+   "n_history": 15,
+   "size_median": [
+    0.2742,
+    0.1461,
+    0.1231
+   ]
+  }
+ }
+}

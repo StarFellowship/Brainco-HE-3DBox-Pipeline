@@ -1,0 +1,123 @@
+{
+ "brainco/GraspOreo_ep5/cam_right_wrist": {
+  "oreo": {
+   "last_evidence": 187,
+   "trimmed_A": 22,
+   "trimmed_B": 22
+  },
+  "plate": {
+   "last_evidence": 188,
+   "trimmed_A": 31,
+   "trimmed_B": 21
+  }
+ },
+ "brainco/GraspRubiksCube_ep5/cam_right_wrist": {
+  "rubiks cube": {
+   "last_evidence": 196,
+   "trimmed_A": 23,
+   "trimmed_B": 13
+  }
+ },
+ "brainco/PickApple_ep5/cam_left_wrist": {
+  "apple": {
+   "last_evidence": 166,
+   "trimmed_A": 50,
+   "trimmed_B": 43
+  },
+  "plate": {
+   "last_evidence": -1,
+   "trimmed_A": 54,
+   "trimmed_B": 61
+  }
+ },
+ "brainco/PickCharger_ep5/cam_left_high": {
+  "charger": {
+   "last_evidence": 171,
+   "trimmed_A": 12,
+   "trimmed_B": 38
+  }
+ },
+ "brainco/PickCharger_ep5/cam_right_high": {
+  "charger": {
+   "last_evidence": 171,
+   "trimmed_A": 25,
+   "trimmed_B": 38
+  }
+ },
+ "brainco/PickCharger_ep5/cam_right_wrist": {
+  "plate": {
+   "last_evidence": 195,
+   "trimmed_A": 24,
+   "trimmed_B": 14
+  }
+ },
+ "brainco/PickDoll_ep5/cam_left_wrist": {
+  "doll": {
+   "last_evidence": 165,
+   "trimmed_A": 40,
+   "trimmed_B": 44
+  },
+  "plate": {
+   "last_evidence": 176,
+   "trimmed_A": 43,
+   "trimmed_B": 33
+  }
+ },
+ "brainco/PickDoll_ep5/cam_right_wrist": {
+  "doll": {
+   "last_evidence": 132,
+   "trimmed_A": 0,
+   "trimmed_B": 31
+  }
+ },
+ "brainco/PickDrink_ep5/cam_left_wrist": {
+  "bottle": {
+   "last_evidence": 198,
+   "trimmed_A": 20,
+   "trimmed_B": 11
+  },
+  "plate": {
+   "last_evidence": -1,
+   "trimmed_A": 19,
+   "trimmed_B": 42
+  }
+ },
+ "brainco/PickDrink_ep5/cam_right_wrist": {
+  "bottle": {
+   "last_evidence": 196,
+   "trimmed_A": 1,
+   "trimmed_B": 13
+  }
+ },
+ "brainco/PickTissues_ep5/cam_left_wrist": {
+  "tissue pack": {
+   "last_evidence": 112,
+   "trimmed_A": 81,
+   "trimmed_B": 97
+  },
+  "plate": {
+   "last_evidence": 16,
+   "trimmed_A": 29,
+   "trimmed_B": 91
+  }
+ },
+ "brainco/PickTissues_ep5/cam_right_wrist": {
+  "tissue pack": {
+   "last_evidence": 148,
+   "trimmed_A": 4,
+   "trimmed_B": 61
+  }
+ },
+ "brainco/PickToothpaste_ep5/cam_right_wrist": {
+  "toothpaste": {
+   "last_evidence": 186,
+   "trimmed_A": 7,
+   "trimmed_B": 0
+  },
+  "plate": {
+   "last_evidence": 146,
+   "trimmed_A": 46,
+   "trimmed_B": 37
+  }
+ }
+}
